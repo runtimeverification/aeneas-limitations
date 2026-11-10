@@ -1,0 +1,11 @@
+[[92mInfo[39m ] Imported: out/C01_closure_local/C01_closure_local.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/25 ⠋Applied prepasses:  [##------------------------------------------------]  1/25 ⠋Applied prepasses:  [########################################----------] 20/25 ⠋Applied prepasses:  [##################################################] 25/25 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/0 ⠋Translated opaque functions:  [------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/2 ⠋Translated transparent functions:  [##################-------------------] 1/2 ⠋Translated transparent functions:  [#####################################] 2/2 ✔️
+[?25h[?25lTranslated trait declarations:  [----------------------------------------] 0/8 ⠋Translated trait declarations:  [----------------------------------------] 0/8 ✔️
+[?25h[?25lTranslated trait impls:  [---------------------------------------------]  0/11 ⠋Translated trait impls:  [---------------------------------------------]  0/11 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/0 ⠋Post-processed translated opaque functions:  [---------------------------] 0/0 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/2 ⠋Post-processed translated transparent functions:  [###########-----------] 1/2 ⠋Post-processed translated transparent functions:  [######################] 2/2 ✔️
+[?25h[[92mInfo[39m ] Generated: out/C01_closure_local/lean/C01ClosureLocal.lean
+[[92mInfo[39m ] Total execution time: 0.277632 seconds

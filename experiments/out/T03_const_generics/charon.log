@@ -1,0 +1,10 @@
+warning: unused variable: `b`
+ --> cases/T03_const_generics.rs:2:31
+  |
+2 | pub fn len_of<const N: usize>(b: &Buf<N>) -> usize { N }
+  |                               ^ help: if this is intentional, prefix it with an underscore: `_b`
+  |
+  = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: 1 warning emitted
+

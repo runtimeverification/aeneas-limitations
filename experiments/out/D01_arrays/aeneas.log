@@ -1,0 +1,11 @@
+[[92mInfo[39m ] Imported: out/D01_arrays/D01_arrays.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/27 ⠋Applied prepasses:  [#-------------------------------------------------]  1/27 ⠋Applied prepasses:  [#####################################-------------] 20/27 ⠋Applied prepasses:  [##################################################] 27/27 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [----------------------------------------]  0/12 ⠋Translated opaque functions:  [########################################] 12/12 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/3 ⠋Translated transparent functions:  [############-------------------------] 1/3 ⠙Translated transparent functions:  [#####################################] 3/3 ✔️
+[?25h[?25lTranslated trait declarations:  [----------------------------------------] 0/5 ⠋Translated trait declarations:  [########################----------------] 3/5 ✔️
+[?25h[?25lTranslated trait impls:  [---------------------------------------------]  0/12 ⠋Translated trait impls:  [###########----------------------------------]  3/12 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [-------------------------]  0/12 ⠋Post-processed translated opaque functions:  [##-----------------------]  1/12 ⠙Post-processed translated opaque functions:  [#########################] 12/12 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/3 ⠋Post-processed translated transparent functions:  [#######---------------] 1/3 ⠙Post-processed translated transparent functions:  [######################] 3/3 ⠙Post-processed translated transparent functions:  [######################] 3/3 ✔️
+[?25h[[92mInfo[39m ] Generated: out/D01_arrays/lean/D01Arrays.lean
+[[92mInfo[39m ] Total execution time: 0.758429 seconds

@@ -1,0 +1,13 @@
+Checking the charon installation
+Warning: `./charon` is a symlink; we assume it is a working copy and will not check commit hashes.
+cd src && dune build
+cd src && dune build aeneas.cmxs
+cd tests/test_runner && dune build
+mkdir -p bin
+cp -f src/_build/default/main.exe bin/aeneas
+cp -f src/_build/default/main.exe bin/aeneas.cmxs
+cp -f tests/test_runner/_build/default/run_test.exe bin/test_runner
+mkdir -p bin/backends/fstar
+mkdir -p bin/backends/coq
+cp -rf backends/fstar/*.fst* bin/backends/fstar/
+cp -rf backends/coq/*.v bin/backends/coq/

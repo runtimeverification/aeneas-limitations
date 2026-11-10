@@ -1,0 +1,11 @@
+[[92mInfo[39m ] Imported: out/A01_arith/A01_arith.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/36 ⠋Applied prepasses:  [#-------------------------------------------------]  1/36 ⠋Applied prepasses:  [###########################-----------------------] 20/36 ⠋Applied prepasses:  [##################################################] 36/36 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/0 ⠋Translated opaque functions:  [------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/7 ⠋Translated transparent functions:  [#####--------------------------------] 1/7 ⠙Translated transparent functions:  [#####################################] 7/7 ✔️
+[?25h[?25lTranslated trait declarations:  [----------------------------------------] 0/5 ⠋Translated trait declarations:  [----------------------------------------] 0/5 ✔️
+[?25h[?25lTranslated trait impls:  [---------------------------------------------]  0/20 ⠋Translated trait impls:  [---------------------------------------------]  0/20 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/0 ⠋Post-processed translated opaque functions:  [---------------------------] 0/0 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/7 ⠋Post-processed translated transparent functions:  [###-------------------] 1/7 ⠙Post-processed translated transparent functions:  [######################] 7/7 ✔️
+[?25h[[92mInfo[39m ] Generated: out/A01_arith/lean/A01Arith.lean
+[[92mInfo[39m ] Total execution time: 0.577245 seconds

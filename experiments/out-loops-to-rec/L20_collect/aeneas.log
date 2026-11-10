@@ -1,0 +1,23 @@
+[[92mInfo[39m ] Imported: out-loops-to-rec/L20_collect/L20_collect.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/33 ⠋Applied prepasses:  [#-------------------------------------------------]  1/33 ⠋Applied prepasses:  [##############################--------------------] 20/33 ⠋Applied prepasses:  [##################################################] 33/33 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [----------------------------------------]  0/11 ⠋Translated opaque functions:  [########################################] 11/11 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/1 ⠋Translated transparent functions:  [#####################################] 1/1 ⠋Translated transparent functions:  [#####################################] 1/1 ✔️
+[?25h[?25lTranslated trait declarations:  [--------------------------------------]  0/27 ⠋Translated trait declarations:  [#########-----------------------------]  7/27 ✔️
+[?25h[?25lTranslated trait impls:  [---------------------------------------------]  0/18 ⠋Translated trait impls:  [###############------------------------------]  6/18 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [-------------------------]  0/11 ⠋Post-processed translated opaque functions:  [##-----------------------]  1/11 ⠙Post-processed translated opaque functions:  [#########################] 11/11 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/1 ⠋Post-processed translated transparent functions:  [######################] 1/1 ⠋Post-processed translated transparent functions:  [######################] 1/1 ✔️
+[?25h[[93mWarn[39m ] When retrieving the builtin information for trait decl 'core::iter::traits::iterator::Iterator', could not find the information for item 'collect'. The model defined in the Lean library seems to be missing the corresponding field.
+Source: '/rustc/library/core/src/iter/traits/iterator.rs', lines 42:0-42:24
+Compiler source: extract/Extract.ml, line 2867
+
+[[93mWarn[39m ] When retrieving the builtin information for trait decl 'core::iter::range::Step', could not find the information for item 'forward_overflowing'. The model defined in the Lean library seems to be missing the corresponding field.
+Source: '/rustc/library/core/src/iter/range.rs', lines 35:0-35:64
+Compiler source: extract/Extract.ml, line 2867
+
+[[93mWarn[39m ] When retrieving the builtin information for trait decl 'core::iter::range::Step', could not find the information for item 'backward_overflowing'. The model defined in the Lean library seems to be missing the corresponding field.
+Source: '/rustc/library/core/src/iter/range.rs', lines 35:0-35:64
+Compiler source: extract/Extract.ml, line 2867
+
+[[92mInfo[39m ] Generated: out-loops-to-rec/L20_collect/lean/L20Collect.lean
+[[92mInfo[39m ] Total execution time: 0.308065 seconds

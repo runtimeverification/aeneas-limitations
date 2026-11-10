@@ -1,0 +1,17 @@
+../out/X01_thread/lean/X01Thread.lean:126:0: error: declaration `x01_thread.spawn` contains universe level metavariables at the expression
+  Std.bind.{?u.9 + 1, 0} (std.thread.join_handle.JoinHandle.join.{0, ?u.9} jh)
+    fun
+      (r :
+        core.result.Result.{0, ?u.9 + 1} U32 (Dyn.{?u.9, ?u.9} fun (_dyn : Type ?u.9) => core.any.Any.{?u.9} _dyn)) =>
+    core.result.Result.unwrap.{0, ?u.9 + 1}
+      (Box.Insts.CoreFmtDebug.{?u.9 + 1, 0} alloc.alloc.Global P.Insts.CoreFmtDebug.{?u.9}) r
+in the declaration body
+  do
+    let jh ← std.thread.functions.spawn spawn.closure.Insts.CoreOpsFunctionFnOnceTupleU32 ()
+    Std.bind.{?u.9 + 1, 0} (std.thread.join_handle.JoinHandle.join.{0, ?u.9} jh)
+        fun
+          (r :
+            core.result.Result.{0, ?u.9 + 1} U32
+              (Dyn.{?u.9, ?u.9} fun (_dyn : Type ?u.9) => core.any.Any.{?u.9} _dyn)) =>
+        core.result.Result.unwrap.{0, ?u.9 + 1}
+          (Box.Insts.CoreFmtDebug.{?u.9 + 1, 0} alloc.alloc.Global P.Insts.CoreFmtDebug.{?u.9}) r

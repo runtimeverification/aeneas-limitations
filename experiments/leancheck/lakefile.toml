@@ -1,0 +1,4 @@
+name = "leancheck"
+[[require]]
+name = "aeneas"
+path = "../../aeneas/backends/lean"

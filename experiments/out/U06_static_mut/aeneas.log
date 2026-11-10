@@ -1,0 +1,19 @@
+[[92mInfo[39m ] Imported: out/U06_static_mut/U06_static_mut.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/26 ⠋Applied prepasses:  [#-------------------------------------------------]  1/26 ⠋Applied prepasses:  [######################################------------] 20/26 ⠋Applied prepasses:  [##################################################] 26/26 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/3 ⠋Translated globals:  [###################################################] 3/3 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/0 ⠋Translated opaque functions:  [------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/5 ⠋[[91mError[39m] Unexpected access to a global
+Source: 'cases/U06_static_mut.rs', lines 5:29-5:35
+[[93mWarn[39m ] Could not translate the body of function 'u06_static_mut::g because of previous error
+Name pattern: 'u06_static_mut::g'
+Definition span: 'cases/U06_static_mut.rs', lines 5:0-5:42
+Source: 'cases/U06_static_mut.rs', lines 5:29-5:35
+Compiler source: interp/Interp.ml, line 686
+
+Translated transparent functions:  [#######------------------------------] 1/5 ⠋Translated transparent functions:  [#####################################] 5/5 ✔️
+[?25h[?25lTranslated trait declarations:  [----------------------------------------] 0/5 ⠋Translated trait declarations:  [----------------------------------------] 0/5 ✔️
+[?25h[?25lTranslated trait impls:  [-----------------------------------------------] 0/8 ⠋Translated trait impls:  [-----------------------------------------------] 0/8 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/0 ⠋Post-processed translated opaque functions:  [---------------------------] 0/0 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/5 ⠋Post-processed translated transparent functions:  [####------------------] 1/5 ⠋Post-processed translated transparent functions:  [######################] 5/5 ✔️
+[?25h[[92mInfo[39m ] Generated the partial file (because of 1 errors, including 1 unique errors): out/U06_static_mut/lean/U06StaticMut.lean
+[[92mInfo[39m ] Total execution time: 0.271408 seconds

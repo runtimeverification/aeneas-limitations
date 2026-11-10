@@ -1,0 +1,16 @@
+[[92mInfo[39m ] Imported: out-loops-to-rec/L16_zip/L16_zip.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/31 ⠋Applied prepasses:  [#-------------------------------------------------]  1/31 ⠋Applied prepasses:  [#################################-----------------] 21/31 ⠋Applied prepasses:  [##################################################] 31/31 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/6 ⠋Translated opaque functions:  [##########################################] 6/6 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/1 ⠋Translated transparent functions:  [#####################################] 1/1 ⠙Translated transparent functions:  [#####################################] 1/1 ✔️
+[?25h[?25lTranslated trait declarations:  [--------------------------------------]  0/27 ⠋Translated trait declarations:  [##------------------------------------]  2/27 ✔️
+[?25h[?25lTranslated trait impls:  [---------------------------------------------]  0/19 ⠋Translated trait impls:  [####-----------------------------------------]  2/19 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/6 ⠋Post-processed translated opaque functions:  [####-----------------------] 1/6 ⠋Post-processed translated opaque functions:  [###########################] 6/6 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/1 ⠋Post-processed translated transparent functions:  [######################] 1/1 ⠋Post-processed translated transparent functions:  [######################] 1/1 ✔️
+[?25h[[93mWarn[39m ] When retrieving the builtin information for trait decl 'core::iter::traits::iterator::Iterator', could not find the information for item 'zip'. The model defined in the Lean library seems to be missing the corresponding field.
+Source: '/rustc/library/core/src/iter/traits/iterator.rs', lines 42:0-42:24
+Compiler source: extract/Extract.ml, line 2867
+
+[[92mInfo[39m ] Generated: out-loops-to-rec/L16_zip/lean/L16Zip.lean
+[[93mWarn[39m ] The crate contains extracted external, unknown definitions: we advise using the option -split-files to allow manually providing these definitions in separate files.
+[[92mInfo[39m ] Total execution time: 0.712697 seconds

@@ -1,0 +1,2 @@
+../out-loops-to-rec/L13_map/lean/L13Map.lean:65:2: error: `map` is not a field of structure `core.iter.traits.iterator.Iterator`
+../out-loops-to-rec/L13_map/lean/L13Map.lean:71:2: error: `collect` is not a field of structure `core.iter.traits.iterator.Iterator`

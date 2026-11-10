@@ -1,0 +1,58 @@
+cd charon-ml && make
+make[1]: вход в каталог «./charon-pinned/charon-ml»
+dune fmt || true
+cd .. && dune build && dune build @doc
+File "../../../charon-ml/name_matcher_parser/.name_matcher_parser.objs/byte/name_matcher_parser.odoc":
+Warning: While resolving the expansion of include at File "charon-ml/name_matcher_parser/Parser.mli", line 46, character 2
+Hidden constructors in type 'Name_matcher_parser.Parser.MenhirInterpreter.element'
+File "charon-ml/src/Expressions.ml", line 10, characters 27-78:
+Warning: Alert deprecated not expected here.
+File "charon-ml/src/GAst.ml", line 13, characters 0-42:
+Warning: Alert deprecated not expected here.
+File "charon-ml/src/Identifiers.ml", line 198, characters 10-38:
+Warning: Failed to resolve reference unresolvedroot(OrdId).map_of_indexed_list Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 194, characters 10-55:
+Warning: Failed to resolve reference unresolvedroot(OrdId).fresh_stateful_generator_with_marked Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 190, characters 10-50:
+Warning: Failed to resolve reference unresolvedroot(OrdId).fresh_marked_stateful_generator Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 198, characters 10-38:
+Warning: Failed to resolve reference unresolvedroot(OrdId).map_of_indexed_list Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 194, characters 10-55:
+Warning: Failed to resolve reference unresolvedroot(OrdId).fresh_stateful_generator_with_marked Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 190, characters 10-50:
+Warning: Failed to resolve reference unresolvedroot(OrdId).fresh_marked_stateful_generator Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 198, characters 10-38:
+Warning: Failed to resolve reference unresolvedroot(OrdId).map_of_indexed_list Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 194, characters 10-55:
+Warning: Failed to resolve reference unresolvedroot(OrdId).fresh_stateful_generator_with_marked Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 190, characters 10-50:
+Warning: Failed to resolve reference unresolvedroot(OrdId).fresh_marked_stateful_generator Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 198, characters 10-38:
+Warning: Failed to resolve reference unresolvedroot(OrdId).map_of_indexed_list Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 194, characters 10-55:
+Warning: Failed to resolve reference unresolvedroot(OrdId).fresh_stateful_generator_with_marked Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 190, characters 10-50:
+Warning: Failed to resolve reference unresolvedroot(OrdId).fresh_marked_stateful_generator Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 198, characters 10-38:
+Warning: Failed to resolve reference unresolvedroot(OrdId).map_of_indexed_list Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 194, characters 10-55:
+Warning: Failed to resolve reference unresolvedroot(OrdId).fresh_stateful_generator_with_marked Couldn't find "OrdId"
+File "charon-ml/src/Identifiers.ml", line 190, characters 10-50:
+Warning: Failed to resolve reference unresolvedroot(OrdId).fresh_marked_stateful_generator Couldn't find "OrdId"
+File "charon-ml/src/Collections.ml", line 448, characters 50-59:
+Warning: Failed to resolve reference unresolvedroot(values) Couldn't find "values"
+File "charon-ml/src/Collections.ml", line 448, characters 41-48:
+Warning: Failed to resolve reference unresolvedroot(keys) Couldn't find "keys"
+File "charon-ml/src/Collections.ml", line 448, characters 28-39:
+Warning: Failed to resolve reference unresolvedroot(bindings) Couldn't find "bindings"
+File "charon-ml/src/Collections.ml", line 447, characters 47-56:
+Warning: Failed to resolve reference unresolvedroot(to_seq) Couldn't find "to_seq"
+File "charon-ml/src/Collections.ml", line 447, characters 38-45:
+Warning: Failed to resolve reference unresolvedroot(fold) Couldn't find "fold"
+File "charon-ml/src/Collections.ml", line 447, characters 29-36:
+Warning: Failed to resolve reference unresolvedroot(iter) Couldn't find "iter"
+File "charon-ml/src/Collections.ml", line 444, characters 66-75:
+Warning: Failed to resolve reference unresolvedroot(of_seq) Couldn't find "of_seq"
+File "charon-ml/src/Collections.ml", line 444, characters 52-62:
+Warning: Failed to resolve reference unresolvedroot(of_list) Couldn't find "of_list"
+make[1]: выход из каталога «./charon-pinned/charon-ml»

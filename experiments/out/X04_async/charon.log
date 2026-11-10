@@ -1,0 +1,25 @@
+warning: Coroutine types are not supported yet
+ --> cases/X04_async.rs:1:1
+  |
+1 | pub async fn f(x: u32) -> u32 { x + 1 }
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: Coroutines are not supported
+ --> cases/X04_async.rs:1:31
+  |
+1 | pub async fn f(x: u32) -> u32 { x + 1 }
+  |                               ^^^^^^^^^
+
+warning: Coroutine types are not supported yet
+ --> cases/X04_async.rs:2:1
+  |
+2 | pub async fn g() -> u32 { f(1).await }
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: Coroutines are not supported
+ --> cases/X04_async.rs:2:25
+  |
+2 | pub async fn g() -> u32 { f(1).await }
+  |                         ^^^^^^^^^^^^^^
+
+warning: The extraction generated 4 warnings

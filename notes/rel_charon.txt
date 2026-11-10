@@ -1,0 +1,61 @@
+2026-03-24 build-2026.03.24.140948-c84b66afaaee7dd548fd2292002c5ca4730fb00b | Support `dyn Trait` with `--monomorphize` | https://github.com/AeneasVerif/charon/pull/1042
+2026-05-06 build-2026.05.06.234012-794131970aa07ded13370c9310bb98af8c370b76 | Store a method ref instead of just trait ref in `Drop` statements | https://github.com/AeneasVerif/charon/pull/1126
+2026-05-13 nightly-2026.05.13 | Improve error message when trying to lift a type across a GAT | https://github.com/AeneasVerif/charon/pull/1147
+2026-05-14 nightly-2026.05.14 | Correctly handle dyn binder in ptr metadata | https://github.com/AeneasVerif/charon/pull/1155
+2026-05-18 nightly-2026.05.18 | Fix union layout variants and field offsets | https://github.com/AeneasVerif/charon/pull/1160
+2026-05-29 nightly-2026.05.29 | aeneas: don't hide `Drop` impls | https://github.com/AeneasVerif/charon/pull/1191
+2026-05-29 nightly-2026.05.29 | Add BuiltinAssertKinds for Coroutine-related errors | https://github.com/AeneasVerif/charon/pull/1197
+2026-05-30 nightly-2026.05.30 | Support non-Rust function pointer ABIs | https://github.com/AeneasVerif/charon/pull/1208
+2026-06-01 nightly-2026.06.01 | Translate GAT arguments | https://github.com/AeneasVerif/charon/pull/1222
+2026-06-02 nightly-2026.06.02 | Tweak the printing of constant literals | https://github.com/AeneasVerif/charon/pull/1239
+2026-06-03 nightly-2026.06.03 | Bump rustc to translate poly drop glue | https://github.com/AeneasVerif/charon/pull/1245
+2026-06-03 nightly-2026.06.03 | use the right constant for vtable fields | https://github.com/AeneasVerif/charon/pull/1249
+2026-06-05 nightly-2026.06.05 | Rename `drop_in_place`  to `drop_glue` and fix its signature | https://github.com/AeneasVerif/charon/pull/1259
+2026-06-27 nightly-2026.06.27 | Fix loop misreconstruction | https://github.com/AeneasVerif/charon/pull/1306
+2026-07-07 nightly-2026.07.07 | Translate closure method implementations in mono mode | https://github.com/AeneasVerif/charon/pull/1317
+2026-07-11 nightly-2026.07.11 | Propagate unwinding information to LLBC | https://github.com/AeneasVerif/charon/pull/1320
+2026-07-24 nightly-2026.07.24 | Add target alignments for literal types | https://github.com/AeneasVerif/charon/pull/1335
+2026-08-25 nightly-2026.08.25 | Generate `Fn*` impls for function items | https://github.com/AeneasVerif/charon/pull/1363
+2026-08-26 nightly-2026.08.26 | Add missing vtables for builtin traits | https://github.com/AeneasVerif/charon/pull/1367
+2026-08-27 nightly-2026.08.27 | Correctly handle using `dyn Trait` as its supertrait | https://github.com/AeneasVerif/charon/pull/1368
+2026-08-27 nightly-2026.08.27 | Generate `Fn*` impls for more things | https://github.com/AeneasVerif/charon/pull/1375
+2026-09-01 nightly-2026.09.01 | Fix desugaring drop of dyn T | https://github.com/AeneasVerif/charon/pull/1398
+2026-09-08 nightly-2026.09.08 | Fix missing statics! | https://github.com/AeneasVerif/charon/pull/1405
+2026-09-08 nightly-2026.09.08 | Translate `Fn*` calls in monomorphic code | https://github.com/AeneasVerif/charon/pull/1399
+2026-09-09 nightly-2026.09.09 | Nested statics can't be turned into standalone globals | https://github.com/AeneasVerif/charon/pull/1414
+2026-09-09 nightly-2026.09.09 | Fix signature mixup when translating fn impls for methods | https://github.com/AeneasVerif/charon/pull/1417
+2026-09-09 nightly-2026.09.09 | Improve unsizing algorithm for `Rc` & co | https://github.com/AeneasVerif/charon/pull/1416
+2026-09-09 nightly-2026.09.09 | Correctly track closure signature lifetimes in their impls | https://github.com/AeneasVerif/charon/pull/1424
+2026-09-10 nightly-2026.09.10 | Fix escaping bound var for HRTB | https://github.com/AeneasVerif/charon/pull/1427
+2026-09-10 nightly-2026.09.10 | Use `vtable_sig` when constructing vtables | https://github.com/AeneasVerif/charon/pull/1429
+2026-09-10 nightly-2026.09.10 | Take by-value `self` vtable receivers via `*mut Self` | https://github.com/AeneasVerif/charon/pull/1428
+2026-09-12 nightly-2026.09.12 | Translate vtables for the `Fn*` impls of closures and fn items | https://github.com/AeneasVerif/charon/pull/1431
+2026-09-12 nightly-2026.09.12 | Rework `Size`/`SizeExpr` and give a size/align to unsized types | https://github.com/AeneasVerif/charon/pull/1434
+2026-09-15 nightly-2026.09.15 | Translate union constants | https://github.com/AeneasVerif/charon/pull/1444
+2026-09-21 nightly-2026.09.21 | Be explicit about lazy vtables | https://github.com/AeneasVerif/charon/pull/1460
+2026-09-21 nightly-2026.09.21 | Add `--erase-body-lifetimes` | https://github.com/AeneasVerif/charon/pull/1467
+2026-09-21 nightly-2026.09.21 | Make `FullDefKind::Closure` and `VirtualTraitImpl` lazier | https://github.com/AeneasVerif/charon/pull/1466
+2026-09-22 nightly-2026.09.22 | Fix panics in foreign statics and consts with fn ptrs | https://github.com/AeneasVerif/charon/pull/1469
+2026-09-22 nightly-2026.09.22 | Add missing generic args to GAT clauses | https://github.com/AeneasVerif/charon/pull/1470
+2026-09-23 nightly-2026.09.23 | Fix panic for an `FnDef` with bound vars | https://github.com/AeneasVerif/charon/pull/1451
+2026-09-24 nightly-2026.09.24 | Generate `Fn*` impls for function pointers | https://github.com/AeneasVerif/charon/pull/1478
+2026-09-26 nightly-2026.09.26 | Add a flag that undoes drop elaboration | https://github.com/AeneasVerif/charon/pull/1480
+2026-10-02 nightly-2026.10.02 | Handle unsized globals | https://github.com/AeneasVerif/charon/pull/1491
+2026-10-13 nightly-2026.10.13 | Retain closure bodies called by opaque code in mono mode | https://github.com/AeneasVerif/charon/pull/1513
+2026-10-15 nightly-2026.10.15 | Distinguish higher-ranked trait proofs | https://github.com/AeneasVerif/charon/pull/1527
+2026-10-15 nightly-2026.10.15 | Instantiate fn pointer higher-kinded regions | https://github.com/AeneasVerif/charon/pull/1528
+2026-10-16 nightly-2026.10.16 | Instantiate higher-kinded clause vars | https://github.com/AeneasVerif/charon/pull/1530
+2026-10-16 nightly-2026.10.16 | Instantiate all higher-ranked clauses | https://github.com/AeneasVerif/charon/pull/1531
+2026-10-17 nightly-2026.10.17 | Remove noretag pointer copies in elaborated MIR | https://github.com/AeneasVerif/charon/pull/1541
+2026-10-24 nightly-2026.10.24 | Handle `#[linkage]` statics | https://github.com/AeneasVerif/charon/pull/1550
+2026-10-24 nightly-2026.10.24 | Move handling of `--unsized-strings` to `rustc_const_uneval` | https://github.com/AeneasVerif/charon/pull/1552
+2026-10-24 nightly-2026.10.24 | Remove unused `rustc_` crates + float bits | https://github.com/AeneasVerif/charon/pull/1554
+2026-10-25 nightly-2026.10.25 | Cleanup hax closure handling | https://github.com/AeneasVerif/charon/pull/1560
+2026-10-26 nightly-2026.10.26 | Handle `VTable` provenance  | https://github.com/AeneasVerif/charon/pull/1558
+2026-10-26 nightly-2026.10.26 | Fix unsizing through smart pointers | https://github.com/AeneasVerif/charon/pull/1544
+2026-10-27 nightly-2026.10.27 | Plumb typeck child inferred lifetimes correctly | https://github.com/AeneasVerif/charon/pull/1564
+2026-10-28 nightly-2026.10.28 | Handle nested statics + remove unknown provenance | https://github.com/AeneasVerif/charon/pull/1567
+2026-10-28 nightly-2026.10.28 | Don’t crash on provenance-less wide pointers | https://github.com/AeneasVerif/charon/pull/1568
+2026-10-28 nightly-2026.10.28 | Fixes for const pointers | https://github.com/AeneasVerif/charon/pull/1569
+2026-11-05 nightly-2026.11.05 | Translate union padding | https://github.com/AeneasVerif/charon/pull/1592
+2026-11-09 nightly-2026.11.09 | More mixed fixes in lifetime handling | https://github.com/AeneasVerif/charon/pull/1601

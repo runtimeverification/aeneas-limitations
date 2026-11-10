@@ -1,0 +1,91 @@
+### L01_while  charon=0 aeneas=0 lean=0
+### L02_loop_break  charon=0 aeneas=0 lean=0
+### L03_continue  charon=0 aeneas=0 lean=0
+### L04_early_return  charon=0 aeneas=0 lean=0
+### L05b_nested_break_outer  charon=0 aeneas=1 lean=0
+  A| Applied prepasses:  [--------------------------------------------------]  0/22 ⠋Applied prepasses:  [##------------------------------------------------]  1/22 ⠋[Error] Breaks to outer loops are not supported yet
+  A| Source: 'cases/L05b_nested_break_outer.rs', lines 1:0-16:1
+  A| [Error] Ignoring the body of 'l05b_nested_break_outer::find_pair' because of previous error
+  A| Source: 'cases/L05b_nested_break_outer.rs', lines 1:0-16:1
+  A| Applied prepasses:  [##################################################] 22/22 ✔️
+  X| axiom find_pair : Std.U32 → Std.U32 → Result Std.U32
+### L05c_nested_return  charon=0 aeneas=1 lean=0
+  A| Applied prepasses:  [--------------------------------------------------]  0/22 ⠋Applied prepasses:  [##------------------------------------------------]  1/22 ⠋[Error] Returns inside of nested loops are not supported yet
+  A| Source: 'cases/L05c_nested_return.rs', lines 1:0-14:1
+  A| [Error] Ignoring the body of 'l05c_nested_return::find_pair' because of previous error
+  A| Source: 'cases/L05c_nested_return.rs', lines 1:0-14:1
+  A| Applied prepasses:  [##################################################] 22/22 ✔️
+  X| axiom find_pair : Std.U32 → Std.U32 → Result (Option (Std.U32 × Std.U32))
+### L05d_nested_continue_outer  charon=0 aeneas=1 lean=0
+  A| Applied prepasses:  [--------------------------------------------------]  0/22 ⠋Applied prepasses:  [##------------------------------------------------]  1/22 ⠋[Error] Continue to outer loops are not supported yet
+  A| Source: 'cases/L05d_nested_continue_outer.rs', lines 1:0-16:1
+  A| [Error] Ignoring the body of 'l05d_nested_continue_outer::f' because of previous error
+  A| Source: 'cases/L05d_nested_continue_outer.rs', lines 1:0-16:1
+  A| Applied prepasses:  [##################################################] 22/22 ✔️
+  X| axiom f : Std.U32 → Result Std.U32
+### L05_nested  charon=0 aeneas=0 lean=0
+### L06b_for_range_inclusive_step  charon=0 aeneas=0 lean=0
+### L06_for_range  charon=0 aeneas=0 lean=0
+### L07b_index_loop_slice  charon=0 aeneas=0 lean=0
+### L07_for_slice  charon=0 aeneas=0 lean=0
+### L08b_for_vec_owned  charon=0 aeneas=0 lean=0
+### L08c_vec_iter_method  charon=0 aeneas=0 lean=0
+### L08_for_vec  charon=0 aeneas=0 lean=0
+  X| axiom SharedAVec.Insts.CoreIterTraitsCollectIntoIteratorSharedATIter.into_iter
+### L09_for_array  charon=0 aeneas=0 lean=0
+  X| axiom core.array.iter.IntoIter (T : Type _) (N : Std.Usize) : Type
+  X| axiom Array.Insts.CoreIterTraitsCollectIntoIteratorTIntoIter.into_iter
+  X| axiom core.array.iter.IntoIter.Insts.CoreIterTraitsIteratorIterator.next
+### L10_iter  charon=0 aeneas=0 lean=0
+### L11b_index_loop_mut  charon=0 aeneas=0 lean=0
+### L11_iter_mut  charon=0 aeneas=0 lean=0
+### L12_into_iter  charon=0 aeneas=0 lean=0
+### L13_map  charon=0 aeneas=0 lean=1
+  X| axiom core.iter.traits.iterator.Iterator.map.default
+  X| axiom core.iter.adapters.map.Map.Insts.CoreIterTraitsIteratorIterator.next
+  X| axiom Shared0U32.Insts.CoreOpsArithMulU32U32.mul
+  L| ../out-loops-to-rec/L13_map/lean/L13Map.lean:65:2: error: `map` is not a field of structure `core.iter.traits.iterator.Iterator`
+  L| ../out-loops-to-rec/L13_map/lean/L13Map.lean:71:2: error: `collect` is not a field of structure `core.iter.traits.iterator.Iterator`
+### L14_filter  charon=0 aeneas=0 lean=0
+  X| axiom core.iter.adapters.filter.Filter (I : Type _) (P : Type _) : Type
+  X| axiom core.iter.traits.iterator.Iterator.count.default
+  X| axiom core.iter.traits.iterator.Iterator.filter.default
+  X| axiom core.slice.iter.Iter.Insts.CoreIterTraitsIteratorIteratorSharedAT.count
+### L15_enumerate  charon=0 aeneas=0 lean=0
+### L16_zip  charon=0 aeneas=0 lean=0
+  X| axiom Shared1U32.Insts.CoreOpsArithMulShared0U32U32.mul
+### L17_rev  charon=0 aeneas=0 lean=0
+### L18_fold  charon=0 aeneas=0 lean=0
+  X| axiom U32.Insts.CoreOpsArithAddShared0U32U32.add
+  X| axiom core.slice.iter.Iter.Insts.CoreIterTraitsIteratorIteratorSharedAT.fold
+### L19_sum  charon=0 aeneas=0 lean=0
+  X| axiom U32.Insts.CoreIterTraitsAccumSumSharedAU32.sum
+  X| axiom core.iter.traits.iterator.Iterator.sum.default
+### L20_collect  charon=0 aeneas=0 lean=0
+### L21_closure_capture_iter  charon=0 aeneas=0 lean=1
+  X| axiom core.iter.traits.iterator.Iterator.any.default
+  X| axiom core.iter.traits.iterator.Iterator.map.default
+  X| axiom core.iter.adapters.map.Map.Insts.CoreIterTraitsIteratorIterator.next
+  X| axiom core.slice.iter.Iter.Insts.CoreIterTraitsIteratorIteratorSharedAT.any
+  L| ../out-loops-to-rec/L21_closure_capture_iter/lean/L21ClosureCaptureIter.lean:77:2: error: `map` is not a field of structure `core.iter.traits.iterator.Iterator`
+  L| ../out-loops-to-rec/L21_closure_capture_iter/lean/L21ClosureCaptureIter.lean:83:2: error: `collect` is not a field of structure `core.iter.traits.iterator.Iterator`
+  L| ../out-loops-to-rec/L21_closure_capture_iter/lean/L21ClosureCaptureIter.lean:89:2: error: `any` is not a field of structure `core.iter.traits.iterator.Iterator`
+### L22_loop_mut_borrow  charon=0 aeneas=0 lean=0
+### L23_loop_return_borrow  charon=0 aeneas=0 lean=0
+### L24_while_let_vec_pop  charon=0 aeneas=0 lean=0
+  X| axiom alloc.vec.Vec.pop
+### L25_custom_iterator  charon=0 aeneas=0 lean=0
+### L26_infinite_loop  charon=0 aeneas=1 lean=0
+  A| Translated transparent functions:  [-------------------------------------] 0/1 ⠋[Error] (Infinite) loops which do not contain breaks are not supported yet
+  A| Source: 'cases/L26_infinite_loop.rs', lines 2:4-2:11
+  A| [Warn ] Could not translate the body of function 'l26_infinite_loop::spin because of previous error
+### L27_loop_exit_only_return  charon=0 aeneas=0 lean=0
+### L28_return_and_break_then_code  charon=0 aeneas=0 lean=0
+### L29_two_loops_with_return  charon=0 aeneas=1 lean=0
+  A| Applied prepasses:  [--------------------------------------------------]  0/25 ⠋Applied prepasses:  [##------------------------------------------------]  1/25 ⠋[Error] Breaks to outer loops are not supported yet
+  A| Source: 'cases/L29_two_loops_with_return.rs', lines 1:0-17:1
+  A| [Error] Ignoring the body of 'l29_two_loops_with_return::f' because of previous error
+  A| Source: 'cases/L29_two_loops_with_return.rs', lines 1:0-17:1
+  A| Applied prepasses:  [##################################################] 25/25 ✔️
+  X| axiom f : Slice Std.U32 → Result (Option Std.Usize)
+### L30_for_range_count  charon=0 aeneas=0 lean=0

@@ -1,0 +1,179 @@
+No configuration file found, using built-in defaults.
+Checking for available remotes: rsync and local, git, mercurial, darcs. Perfect!
+
+<><> Fetching repository information ><><><><><><><><><><><><><><><><><><><><><>
+[default] Initialised
+default (at https://opam.ocaml.org): 
+    [INFO] opam is out-of-date. Please consider updating (https://opam.ocaml.org/doc/Install.html)
+
+default (at https://opam.ocaml.org): 
+    [INFO] please ensure to have GNU patch installed as `patch`. Otherwise update may fail silently (since it can't remove files).
+
+default (at https://opam.ocaml.org): 
+    [WARNING] opam >= 2.5.2 includes important security fixes; please consider upgrading (https://opam.ocaml.org/doc/Install.html)
+
+
+<><> Installing new switch packages <><><><><><><><><><><><><><><><><><><><><><>
+Switch invariant: ["ocaml-base-compiler" {= "5.3.0"}]
+
+<><> Processing actions <><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+∗ installed base-bigarray.base
+∗ installed base-threads.base
+∗ installed base-unix.base
+∗ installed ocaml-options-vanilla.1
+⬇ retrieved ocaml-config.3  (2 extra sources)
+⬇ retrieved ocaml-compiler.5.3.0  (https://opam.ocaml.org/cache)
+∗ installed ocaml-compiler.5.3.0
+∗ installed ocaml-base-compiler.5.3.0
+∗ installed ocaml-config.3
+∗ installed ocaml.5.3.0
+∗ installed base-domains.base
+∗ installed base-effects.base
+∗ installed base-nnp.base
+Done.
+# Run eval $(opam env --switch=default) to update the current shell environment
+[visitors.20260520] synchronised (git+https://gitlab.inria.fr/fpottier/visitors.git#20260520)
+visitors is now pinned to git+https://gitlab.inria.fr/fpottier/visitors.git#20260520 (version 20260520)
+[ppx_deriving_hash.0.1.5] synchronised (git+https://github.com/sim642/ppx_deriving_hash.git#0.1.5)
+ppx_deriving_hash is now pinned to git+https://github.com/sim642/ppx_deriving_hash.git#0.1.5 (version 0.1.5)
+
+<><> Synchronising pinned packages ><><><><><><><><><><><><><><><><><><><><><><>
+[ppx_deriving_hash.0.1.5] synchronised (no changes)
+[visitors.20260520] synchronised (no changes)
+
+The following actions will be performed:
+  ∗ install ocamlbuild          0.16.1    [required by logs]
+  ∗ install dune                3.24.2
+  ∗ install conf-gmp            5         [required by zarith]
+  ∗ install conf-pkg-config     5         [required by zarith]
+  ∗ install ocamlfind           1.9.8     [required by ppx_deriving, logs, zarith]
+  ∗ install yojson              3.0.0
+  ∗ install unionFind           20250818
+  ∗ install thread-table        1.0.0     [required by domain-local-await]
+  ∗ install stdlib-shims        0.3.0     [required by terminal]
+  ∗ install sexplib0            v0.17.0   [required by ppxlib]
+  ∗ install result              1.5       [required by visitors]
+  ∗ install re                  1.14.0
+  ∗ install ppx_derivers        1.2.1     [required by ppx_deriving, ppxlib]
+  ∗ install optint              0.3.0     [required by progress]
+  ∗ install ocamlgraph          2.2.0
+  ∗ install ocaml-compiler-libs v0.17.0   [required by ppxlib]
+  ∗ install multicore-magic     2.3.2     [required by saturn]
+  ∗ install menhirSdk           20260209  [required by menhir]
+  ∗ install menhirLib           20260209  [required by menhir]
+  ∗ install menhirGLR           20260209  [required by menhir]
+  ∗ install menhirCST           20260209  [required by menhir]
+  ∗ install cppo                1.8.0     [required by ppx_deriving]
+  ∗ install backoff             0.1.1     [required by saturn]
+  ∗ install zarith              1.14
+  ∗ install topkg               1.1.1     [required by logs]
+  ∗ install domain-local-await  1.0.1     [required by domainslib]
+  ∗ install calendar            3.0.0
+  ∗ install ppxlib              0.39.0
+  ∗ install menhir              20260209
+  ∗ install saturn              1.0.0     [required by domainslib]
+  ∗ install uutf                1.0.4     [required by progress]
+  ∗ install uucp                18.0.0    [required by progress]
+  ∗ install mtime               2.2.0     [required by progress]
+  ∗ install fmt                 0.11.0    [required by logs, progress]
+  ∗ install easy_logging        0.8.2
+  ∗ install ppx_deriving        6.2.0
+  ∗ install domainslib          0.5.2
+  ∗ install terminal            0.5.0     [required by progress]
+  ∗ install logs                0.10.0
+  ∗ install visitors            20260520*
+  ∗ install ppx_deriving_yojson 3.10.0
+  ∗ install ppx_deriving_hash   0.1.5*
+  ∗ install progress            0.5.0
+===== ∗ 43 =====
+
+<><> Processing actions <><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+⬇ retrieved conf-gmp.5  (https://opam.ocaml.org/cache)
+∗ installed conf-gmp.5
+⬇ retrieved backoff.0.1.1  (https://opam.ocaml.org/cache)
+⬇ retrieved calendar.3.0.0  (https://opam.ocaml.org/cache)
+⬇ retrieved domain-local-await.1.0.1  (https://opam.ocaml.org/cache)
+⬇ retrieved cppo.1.8.0  (https://opam.ocaml.org/cache)
+⬇ retrieved conf-pkg-config.5  (2 extra sources)
+∗ installed conf-pkg-config.5
+⬇ retrieved domainslib.0.5.2  (https://opam.ocaml.org/cache)
+⬇ retrieved easy_logging.0.8.2  (https://opam.ocaml.org/cache)
+⬇ retrieved fmt.0.11.0  (https://opam.ocaml.org/cache)
+⬇ retrieved dune.3.24.2  (https://opam.ocaml.org/cache)
+⬇ retrieved logs.0.10.0  (https://opam.ocaml.org/cache)
+⬇ retrieved menhir.20260209  (https://opam.ocaml.org/cache)
+⬇ retrieved menhirLib.20260209  (cached)
+⬇ retrieved menhirSdk.20260209  (cached)
+⬇ retrieved mtime.2.2.0  (https://opam.ocaml.org/cache)
+⬇ retrieved menhirGLR.20260209  (https://opam.ocaml.org/cache)
+⬇ retrieved multicore-magic.2.3.2  (https://opam.ocaml.org/cache)
+⬇ retrieved ocaml-compiler-libs.v0.17.0  (https://opam.ocaml.org/cache)
+⬇ retrieved ocamlbuild.0.16.1  (https://opam.ocaml.org/cache)
+⬇ retrieved menhirCST.20260209  (https://opam.ocaml.org/cache)
+⬇ retrieved ocamlfind.1.9.8  (https://opam.ocaml.org/cache)
+⬇ retrieved optint.0.3.0  (https://opam.ocaml.org/cache)
+⬇ retrieved ppx_derivers.1.2.1  (https://opam.ocaml.org/cache)
+⬇ retrieved ocamlgraph.2.2.0  (https://opam.ocaml.org/cache)
+⬇ retrieved ppx_deriving_yojson.3.10.0  (https://opam.ocaml.org/cache)
+⬇ retrieved ppx_deriving.6.2.0  (https://opam.ocaml.org/cache)
+⬇ retrieved ppx_deriving_hash.0.1.5  (no changes)
+∗ installed ocamlfind.1.9.8
+⬇ retrieved re.1.14.0  (https://opam.ocaml.org/cache)
+∗ installed ocamlbuild.0.16.1
+⬇ retrieved progress.0.5.0  (https://opam.ocaml.org/cache)
+⬇ retrieved ppxlib.0.39.0  (https://opam.ocaml.org/cache)
+⬇ retrieved result.1.5  (https://opam.ocaml.org/cache)
+⬇ retrieved sexplib0.v0.17.0  (https://opam.ocaml.org/cache)
+⬇ retrieved terminal.0.5.0  (cached)
+⬇ retrieved saturn.1.0.0  (https://opam.ocaml.org/cache)
+⬇ retrieved stdlib-shims.0.3.0  (https://opam.ocaml.org/cache)
+⬇ retrieved thread-table.1.0.0  (https://opam.ocaml.org/cache)
+⬇ retrieved topkg.1.1.1  (https://opam.ocaml.org/cache)
+∗ installed dune.3.24.2
+⬇ retrieved unionFind.20250818  (https://opam.ocaml.org/cache)
+∗ installed backoff.0.1.1
+∗ installed menhirCST.20260209
+∗ installed ppx_derivers.1.2.1
+∗ installed stdlib-shims.0.3.0
+∗ installed result.1.5
+∗ installed thread-table.1.0.0
+∗ installed optint.0.3.0
+∗ installed multicore-magic.2.3.2
+∗ installed menhirLib.20260209
+⬇ retrieved uutf.1.0.4  (https://opam.ocaml.org/cache)
+∗ installed menhirSdk.20260209
+∗ installed menhirGLR.20260209
+∗ installed unionFind.20250818
+∗ installed domain-local-await.1.0.1
+∗ installed sexplib0.v0.17.0
+∗ installed cppo.1.8.0
+⬇ retrieved uucp.18.0.0  (https://opam.ocaml.org/cache)
+∗ installed saturn.1.0.0
+∗ installed ocaml-compiler-libs.v0.17.0
+∗ installed re.1.14.0
+⬇ retrieved visitors.20260520  (no changes)
+⬇ retrieved yojson.3.0.0  (https://opam.ocaml.org/cache)
+∗ installed domainslib.0.5.2
+∗ installed ocamlgraph.2.2.0
+∗ installed calendar.3.0.0
+⬇ retrieved zarith.1.14  (https://opam.ocaml.org/cache)
+∗ installed yojson.3.0.0
+∗ installed easy_logging.0.8.2
+∗ installed topkg.1.1.1
+∗ installed uutf.1.0.4
+∗ installed zarith.1.14
+∗ installed mtime.2.2.0
+∗ installed fmt.0.11.0
+∗ installed logs.0.10.0
+∗ installed menhir.20260209
+∗ installed ppxlib.0.39.0
+∗ installed ppx_deriving.6.2.0
+∗ installed ppx_deriving_hash.0.1.5
+∗ installed ppx_deriving_yojson.3.10.0
+∗ installed visitors.20260520
+∗ installed uucp.18.0.0
+∗ installed terminal.0.5.0
+∗ installed progress.0.5.0
+Done.
+# Run eval $(opam env) to update the current shell environment
+EXIT 0

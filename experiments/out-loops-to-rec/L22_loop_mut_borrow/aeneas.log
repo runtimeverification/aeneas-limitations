@@ -1,0 +1,11 @@
+[[92mInfo[39m ] Imported: out-loops-to-rec/L22_loop_mut_borrow/L22_loop_mut_borrow.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/28 ⠋Applied prepasses:  [#-------------------------------------------------]  1/28 ⠋Applied prepasses:  [###################################---------------] 20/28 ⠋Applied prepasses:  [##################################################] 28/28 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/9 ⠋Translated opaque functions:  [##########################################] 9/9 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/2 ⠋Translated transparent functions:  [##################-------------------] 1/2 ⠙Translated transparent functions:  [#####################################] 2/2 ✔️
+[?25h[?25lTranslated trait declarations:  [----------------------------------------] 0/5 ⠋Translated trait declarations:  [########--------------------------------] 1/5 ✔️
+[?25h[?25lTranslated trait impls:  [---------------------------------------------]  0/12 ⠋Translated trait impls:  [###------------------------------------------]  1/12 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/9 ⠋Post-processed translated opaque functions:  [###------------------------] 1/9 ⠋Post-processed translated opaque functions:  [###########################] 9/9 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/2 ⠋Post-processed translated transparent functions:  [###########-----------] 1/2 ⠋Post-processed translated transparent functions:  [######################] 2/2 ✔️
+[?25h[[92mInfo[39m ] Generated: out-loops-to-rec/L22_loop_mut_borrow/lean/L22LoopMutBorrow.lean
+[[92mInfo[39m ] Total execution time: 0.444983 seconds

@@ -1,0 +1,37 @@
+2026-03-15 build-2026.03.15.182237-70462813c07b7e37f1983498000604cf15ac418c | Add a temporary prepass to fix Charon's closure signatures | https://github.com/AeneasVerif/aeneas/pull/848
+2026-03-17 build-2026.03.17.143030-516dcacfe7196dccd6257e63010ff3de19b6452f | Release static Linux artifact | https://github.com/AeneasVerif/aeneas/pull/847
+2026-03-26 build-2026.03.26.085158-d5bcf607b271343df09430425cf0a4663ebe5bac | Update the skill files about axiom review | https://github.com/AeneasVerif/aeneas/pull/877
+2026-03-27 build-2026.03.27.165227-65f6b50245483243120d6a53fbab20a736818491 | feat: show Rust visibility in Lean docstrings | https://github.com/AeneasVerif/aeneas/pull/808
+2026-04-04 build-2026.04.04.112116-34bfac3ba40a7d7ea9ed9e8765b3907a7a3e43bc | Add support for mutable borrows inside shared borrows | https://github.com/AeneasVerif/aeneas/pull/906
+2026-04-04 build-2026.04.04.113656-cfe44731a9ec76ba95b08a2ba919bce052864008 | Handle promotion of reserved borrows pointing inside shared loans | https://github.com/AeneasVerif/aeneas/pull/907
+2026-04-22 build-2026.04.22.210647-430f8b36137ef44f217c9de44b6ba7114d363d3c | fix: check negativity in UScalar.shiftLeft/shiftRight_IScalar | https://github.com/AeneasVerif/aeneas/pull/955
+2026-04-22 build-2026.04.22.212809-d421a4f022a91c5538c8c88b0c48d8c50158043b | fix(mvcgen): Allow divergence for partial correctness | https://github.com/AeneasVerif/aeneas/pull/939
+2026-05-06 build-2026.05.06.102509-ee9bb3935375aacfa8ea3682fc21b051b79fc931 | Include Rust toolchain metadata in release archives | https://github.com/AeneasVerif/aeneas/pull/978
+2026-05-08 build-2026.05.08.150209-d43f7cd79d7548a80b21c2e2426e2b5176c9564a | Improve the error message that occurs when dereferencing raw pointers | https://github.com/AeneasVerif/aeneas/pull/1003
+2026-05-11 build-2026.05.11.102652-72d41d1a94f24a38eb535a8f71bb3db1a16e951e | Add missing step theorem for unary negation on machine integers | https://github.com/AeneasVerif/aeneas/pull/975
+2026-05-11 build-2026.05.11.144417-51d2e0a5809244ebcab7736d527e8498570dbc5d | Update decompose to use unfolding equations | https://github.com/AeneasVerif/aeneas/pull/1010
+2026-05-31 nightly-2026.05.31 | Break release | https://github.com/AeneasVerif/aeneas/pull/1087
+2026-06-04 nightly-2026.06.04 | String: prove `toStr` length bound via `ByteArray.length_toList` | https://github.com/AeneasVerif/aeneas/pull/1066
+2026-06-21 nightly-2026.06.21 | Add models of iterator transformers | https://github.com/AeneasVerif/aeneas/pull/1143
+2026-06-26 nightly-2026.06.26 | Fix an issue with shared borrows when computing joins | https://github.com/AeneasVerif/aeneas/pull/1166
+2026-07-03 nightly-2026.07.03-b07ba19 | Add preliminary support for higher ranked trait bounds | https://github.com/AeneasVerif/aeneas/pull/1158
+2026-07-03 build-45061fa | Fix issues with nested shared borrows | https://github.com/AeneasVerif/aeneas/pull/1187
+2026-07-18 nightly-2026.07.18-b59d518 | Add support for loops in consts | https://github.com/AeneasVerif/aeneas/pull/1219
+2026-07-24 nightly-2026.07.24-6e167c9 | Fix an issue in step that prevents using WPs that thread a state | https://github.com/AeneasVerif/aeneas/pull/1228
+2026-08-25 nightly-2026.08.25-089704f | Add the CLI option -feature-gates | https://github.com/AeneasVerif/aeneas/pull/1292
+2026-09-04 nightly-2026.09.04-f9a8e33 | Fix a function that visited projections twice in InterpBorrowsCore.ml | https://github.com/AeneasVerif/aeneas/pull/1331
+2026-09-04 nightly-2026.09.04-f9a8e33 | Implement `PrePasses.fix_closure_signature_regions` | https://github.com/AeneasVerif/aeneas/pull/1333
+2026-09-04 nightly-2026.09.04-f9a8e33 | doc: add docstring to #decompose command | https://github.com/AeneasVerif/aeneas/pull/1268
+2026-09-04 nightly-2026.09.04-f9a8e33 | Fix `Iterator` extraction | https://github.com/AeneasVerif/aeneas/pull/1131
+2026-09-17 nightly-2026.09.17-86158eb | In `InterpLoopsFixedPoint.ml` join the break contexts from two iterations | https://github.com/AeneasVerif/aeneas/pull/1348
+2026-10-01 nightly-2026.10.01-ca282ec | Use a fresh id when copying a symbolic value with no borrows | https://github.com/AeneasVerif/aeneas/pull/1379
+2026-10-09 nightly-2026.10.09-d119a47 | Add models of `Option::map`, `Option::is_some_and`, `bool::then` and `Result::unwrap_or` | https://github.com/AeneasVerif/aeneas/pull/1380
+2026-10-16 nightly-2026.10.16-d95aeac | Add support for the 'static region | https://github.com/AeneasVerif/aeneas/pull/1438
+2026-10-17 nightly-2026.10.17-e62dd83 | Update the output type of `get_target` to pure strings | https://github.com/AeneasVerif/aeneas/pull/1452
+2026-10-17 nightly-2026.10.17-e62dd83 | Create folder for crate `alloc` and move the `alloc` models into it | https://github.com/AeneasVerif/aeneas/pull/1430
+2026-10-22 nightly-2026.10.22-f383079 | Fix some regressions introduced by the support for 'static | https://github.com/AeneasVerif/aeneas/pull/1472
+2026-10-29 nightly-2026.10.29-de16f3c | Model `next_back` for `slice::Iter` | https://github.com/AeneasVerif/aeneas/pull/1386
+2026-11-05 nightly-2026.11.05-c2d2343 | Add a model of the blanket `impl Borrow<T> for T` | https://github.com/AeneasVerif/aeneas/pull/1482
+2026-11-05 nightly-2026.11.05-c2d2343 | Add a model of `Result::map` | https://github.com/AeneasVerif/aeneas/pull/1484
+2026-11-07 nightly-2026.11.07-c5eb4a2 | Model the `TakeWhile` iterator adapter | https://github.com/AeneasVerif/aeneas/pull/1373
+2026-11-09 nightly-2026.11.09-5a392f4 | Add a model of `IntoIterator for &mut [T; N]` | https://github.com/AeneasVerif/aeneas/pull/1486

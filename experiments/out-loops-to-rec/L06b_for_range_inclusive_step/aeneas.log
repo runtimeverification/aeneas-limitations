@@ -1,0 +1,19 @@
+[[92mInfo[39m ] Imported: out-loops-to-rec/L06b_for_range_inclusive_step/L06b_for_range_inclusive_step.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/45 ⠋Applied prepasses:  [#-------------------------------------------------]  1/45 ⠋Applied prepasses:  [###############################-------------------] 28/45 ⠋Applied prepasses:  [##################################################] 45/45 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [----------------------------------------]  0/21 ⠋Translated opaque functions:  [########################################] 21/21 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/2 ⠋Translated transparent functions:  [##################-------------------] 1/2 ⠙Translated transparent functions:  [#####################################] 2/2 ✔️
+[?25h[?25lTranslated trait declarations:  [--------------------------------------]  0/27 ⠋Translated trait declarations:  [#######-------------------------------]  5/27 ✔️
+[?25h[?25lTranslated trait impls:  [---------------------------------------------]  0/23 ⠋Translated trait impls:  [#################----------------------------]  9/23 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [-------------------------]  0/21 ⠋Post-processed translated opaque functions:  [#------------------------]  1/21 ⠙Post-processed translated opaque functions:  [#########################] 21/21 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/2 ⠋Post-processed translated transparent functions:  [###########-----------] 1/2 ⠙Post-processed translated transparent functions:  [######################] 2/2 ✔️
+[?25h[[93mWarn[39m ] When retrieving the builtin information for trait decl 'core::iter::range::Step', could not find the information for item 'forward_overflowing'. The model defined in the Lean library seems to be missing the corresponding field.
+Source: '/rustc/library/core/src/iter/range.rs', lines 35:0-35:64
+Compiler source: extract/Extract.ml, line 2867
+
+[[93mWarn[39m ] When retrieving the builtin information for trait decl 'core::iter::range::Step', could not find the information for item 'backward_overflowing'. The model defined in the Lean library seems to be missing the corresponding field.
+Source: '/rustc/library/core/src/iter/range.rs', lines 35:0-35:64
+Compiler source: extract/Extract.ml, line 2867
+
+[[92mInfo[39m ] Generated: out-loops-to-rec/L06b_for_range_inclusive_step/lean/L06bForRangeInclusiveStep.lean
+[[92mInfo[39m ] Total execution time: 0.698013 seconds

@@ -1,0 +1,7 @@
+../out/R03_mutual_inductive/lean/R03MutualInductive.lean:49:10: error: Could not prove 'r03_mutual_inductive.tsum' to be monotone in its recursive calls:
+  Cannot eliminate recursive call `fsum f` enclosed in
+    let ⟨v, f⟩ := t
+    do
+    let i ← fsum f
+    SharedU32.Insts.CoreOpsArithAddU32U32.add v i
+  

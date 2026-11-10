@@ -1,0 +1,290 @@
+### A01_arith  charon=0 aeneas=0 lean=0
+### A02_wrapping_checked  charon=0 aeneas=0 lean=0
+### A03_casts  charon=0 aeneas=1 lean=1
+  A| [Error] Unreachable
+  A| Source: 'cases/A03_casts.rs', lines 4:0-4:38
+  A| [Info ] Generated the partial file (because of 1 errors, including 1 unique errors): out/A03_casts/lean/A03Casts.lean
+  X| axiom U8.Insts.CoreConvertTryFromU32TryFromIntError.try_from
+  L| ../out/A03_casts/lean/A03Casts.lean:58:6: error: unexpected token '/--'; expected ')', '↑', '↥', '⇑' or term
+### A04_bits  charon=0 aeneas=0 lean=0
+  X| axiom core.num.U64.count_ones : Std.U64 → Result Std.U32
+### A05_panics  charon=0 aeneas=0 lean=0
+### A06_floats  charon=0 aeneas=1 lean=0
+  A| Translated transparent functions:  [-------------------------------------] 0/1 ⠋[Error] Invalid inputs for binop
+  A| Source: 'cases/A06_floats.rs', lines 1:34-1:39
+  A| [Warn ] Could not translate the body of function 'a06_floats::f because of previous error
+### B01_nested_borrows  charon=0 aeneas=0 lean=0
+### B02_struct_with_lifetime  charon=0 aeneas=0 lean=0
+### B03_return_borrow  charon=0 aeneas=0 lean=0
+### B04_generic_with_mut_ref  charon=0 aeneas=0 lean=1
+  L| ../out/B04_generic_with_mut_ref/lean/B04GenericWithMutRef.lean:32:31: error: expected a product type, got
+### B05_two_phase  charon=0 aeneas=0 lean=0
+### B06_option_mut_ref_in_struct  charon=0 aeneas=0 lean=0
+### C01_closure_local  charon=0 aeneas=0 lean=0
+### C02_closure_generic_fn  charon=0 aeneas=0 lean=0
+### C03_closure_fnmut  charon=0 aeneas=0 lean=1
+  L| ../out/C03_closure_fnmut/lean/C03ClosureFnmut.lean:63:15: error: Type mismatch
+  L| ../out/C03_closure_fnmut/lean/C03ClosureFnmut.lean:72:14: error: Type mismatch
+  L| ../out/C03_closure_fnmut/lean/C03ClosureFnmut.lean:79:2: error: Type mismatch
+### C04_fn_pointer  charon=0 aeneas=1 lean=0
+  A| [Error] Arrow types are not supported yet
+  A| Source: 'cases/C04_fn_pointer.rs', lines 2:0-2:59
+  A| [Warn ] Could not translate the function signature of 'c04_fn_pointer::apply_ptr because of previous error
+  A| Translated transparent functions:  [-------------------------------------] 0/3 ⠋[Error] Invalid input for unop: fn_def_to_fn_ptr on c04_fn_pointer::inc
+  A| Source: 'cases/C04_fn_pointer.rs', lines 3:36-3:39
+  A| [Warn ] Could not translate the body of function 'c04_fn_pointer::use_ptr because of previous error
+  A| Translated transparent functions:  [############-------------------------] 1/3 ⠋[Error] Function pointers are not supported yet
+  A| Source: 'cases/C04_fn_pointer.rs', lines 2:53-2:57
+  A| [Warn ] Could not translate the body of function 'c04_fn_pointer::apply_ptr because of previous error
+  A| [Error] Internal error: please file an issue
+  A| Source: 'cases/C04_fn_pointer.rs', lines 2:0-2:59
+  A| [Warn ] Could not translate the function 'c04_fn_pointer::apply_ptr because of previous error.
+### C05_closure_fnonce_move  charon=0 aeneas=0 lean=0
+### D01_arrays  charon=0 aeneas=0 lean=0
+### D02_slices  charon=0 aeneas=0 lean=0
+### D03_vec  charon=0 aeneas=0 lean=0
+  X| axiom core.mem.maybe_uninit.MaybeUninit (T : Type _) : Type
+  X| axiom alloc.vec.Vec.remove
+  X| axiom alloc.vec.Vec.pop
+### D04_strings  charon=0 aeneas=0 lean=0
+  X| axiom core.str.Str.len : Str → Result Std.Usize
+  X| axiom Str.Insts.CoreCmpPartialEqStr.eq : Str → Str → Result Bool
+  X| axiom alloc.string.String.new : Result String
+  X| axiom alloc.string.String.push_str : String → Str → Result String
+### D05_option_result  charon=0 aeneas=0 lean=0
+  X| axiom core.option.Option.Insts.CoreOpsTry_traitTry.branch
+### D06_box  charon=0 aeneas=0 lean=0
+### D07_struct_enum_match  charon=0 aeneas=0 lean=0
+### D08_tuple_struct_derive  charon=0 aeneas=0 lean=0
+  X| axiom core.fmt.Formatter.debug_tuple_field2_finish
+### F01_extern_c  charon=0 aeneas=0 lean=0
+  X| axiom ext_add : Std.U32 → Std.U32 → Result Std.U32
+### F02_opaque_module  charon=0 aeneas=0 lean=0
+  X| axiom hidden.secret : Std.U32 → Result Std.U32
+### F03_no_mangle_export  charon=0 aeneas=0 lean=0
+### I01_cell  charon=0 aeneas=0 lean=0
+  X| axiom core.cell.Cell (T : Type _) : Type
+  X| axiom core.cell.Cell.set {T : Type _} : core.cell.Cell T → T → Result Unit
+  X| axiom core.cell.Cell.get
+### I02_refcell  charon=0 aeneas=0 lean=0
+  X| axiom core.cell.RefCell (T : Type _) : Type
+  X| axiom core.cell.RefMut (T : Type _) : Type
+  X| axiom core.cell.RefCell.borrow_mut
+  X| axiom core.cell.RefMut.Insts.CoreOpsDerefDerefMut.deref_mut
+### I03_rc  charon=0 aeneas=0 lean=0
+  X| axiom alloc.rc.Rc (T : Type _) : Type
+  X| axiom alloc.rc.Rc.new {T : Type _} : T → Result (alloc.rc.Rc T)
+  X| axiom alloc.rc.Rc.Insts.CoreOpsDerefDeref.deref
+  X| axiom alloc.rc.Rc.Insts.CoreCloneClone.clone
+### I04_arc  charon=0 aeneas=0 lean=0
+  X| axiom alloc.sync.Arc (T : Type _) : Type
+  X| axiom alloc.sync.Arc.new {T : Type _} : T → Result (alloc.sync.Arc T)
+  X| axiom alloc.sync.Arc.Insts.CoreCloneClone.clone
+  X| axiom alloc.sync.Arc.Insts.CoreOpsDerefDeref.deref
+### L01_while  charon=0 aeneas=0 lean=0
+### L02_loop_break  charon=0 aeneas=0 lean=0
+### L03_continue  charon=0 aeneas=0 lean=0
+### L04_early_return  charon=0 aeneas=0 lean=0
+### L05b_nested_break_outer  charon=0 aeneas=1 lean=0
+  A| Applied prepasses:  [--------------------------------------------------]  0/22 ⠋Applied prepasses:  [##------------------------------------------------]  1/22 ⠋[Error] Breaks to outer loops are not supported yet
+  A| Source: 'cases/L05b_nested_break_outer.rs', lines 1:0-16:1
+  A| [Error] Ignoring the body of 'l05b_nested_break_outer::find_pair' because of previous error
+  A| Source: 'cases/L05b_nested_break_outer.rs', lines 1:0-16:1
+  A| Applied prepasses:  [##################################################] 22/22 ✔️
+  X| axiom find_pair : Std.U32 → Std.U32 → Result Std.U32
+### L05c_nested_return  charon=0 aeneas=1 lean=0
+  A| Applied prepasses:  [--------------------------------------------------]  0/22 ⠋Applied prepasses:  [##------------------------------------------------]  1/22 ⠋[Error] Returns inside of nested loops are not supported yet
+  A| Source: 'cases/L05c_nested_return.rs', lines 1:0-14:1
+  A| [Error] Ignoring the body of 'l05c_nested_return::find_pair' because of previous error
+  A| Source: 'cases/L05c_nested_return.rs', lines 1:0-14:1
+  A| Applied prepasses:  [##################################################] 22/22 ✔️
+  X| axiom find_pair : Std.U32 → Std.U32 → Result (Option (Std.U32 × Std.U32))
+### L05d_nested_continue_outer  charon=0 aeneas=1 lean=0
+  A| Applied prepasses:  [--------------------------------------------------]  0/22 ⠋Applied prepasses:  [##------------------------------------------------]  1/22 ⠋[Error] Continue to outer loops are not supported yet
+  A| Source: 'cases/L05d_nested_continue_outer.rs', lines 1:0-16:1
+  A| [Error] Ignoring the body of 'l05d_nested_continue_outer::f' because of previous error
+  A| Source: 'cases/L05d_nested_continue_outer.rs', lines 1:0-16:1
+  A| Applied prepasses:  [##################################################] 22/22 ✔️
+  X| axiom f : Std.U32 → Result Std.U32
+### L05_nested  charon=0 aeneas=0 lean=0
+### L06b_for_range_inclusive_step  charon=0 aeneas=0 lean=0
+### L06_for_range  charon=0 aeneas=0 lean=0
+### L07b_index_loop_slice  charon=0 aeneas=0 lean=0
+### L07_for_slice  charon=0 aeneas=0 lean=0
+### L08b_for_vec_owned  charon=0 aeneas=0 lean=0
+### L08c_vec_iter_method  charon=0 aeneas=0 lean=0
+### L08_for_vec  charon=0 aeneas=0 lean=0
+  X| axiom SharedAVec.Insts.CoreIterTraitsCollectIntoIteratorSharedATIter.into_iter
+### L09_for_array  charon=0 aeneas=0 lean=0
+  X| axiom core.array.iter.IntoIter (T : Type _) (N : Std.Usize) : Type
+  X| axiom Array.Insts.CoreIterTraitsCollectIntoIteratorTIntoIter.into_iter
+  X| axiom core.array.iter.IntoIter.Insts.CoreIterTraitsIteratorIterator.next
+### L10_iter  charon=0 aeneas=0 lean=0
+### L11b_index_loop_mut  charon=0 aeneas=0 lean=0
+### L11_iter_mut  charon=0 aeneas=0 lean=0
+### L12_into_iter  charon=0 aeneas=0 lean=0
+### L13_map  charon=0 aeneas=0 lean=1
+  X| axiom core.iter.traits.iterator.Iterator.map.default
+  X| axiom core.iter.adapters.map.Map.Insts.CoreIterTraitsIteratorIterator.next
+  X| axiom Shared0U32.Insts.CoreOpsArithMulU32U32.mul
+  L| ../out/L13_map/lean/L13Map.lean:65:2: error: `map` is not a field of structure `core.iter.traits.iterator.Iterator`
+  L| ../out/L13_map/lean/L13Map.lean:71:2: error: `collect` is not a field of structure `core.iter.traits.iterator.Iterator`
+### L14_filter  charon=0 aeneas=0 lean=0
+  X| axiom core.iter.adapters.filter.Filter (I : Type _) (P : Type _) : Type
+  X| axiom core.iter.traits.iterator.Iterator.count.default
+  X| axiom core.iter.traits.iterator.Iterator.filter.default
+  X| axiom core.slice.iter.Iter.Insts.CoreIterTraitsIteratorIteratorSharedAT.count
+### L15_enumerate  charon=0 aeneas=0 lean=0
+### L16_zip  charon=0 aeneas=0 lean=0
+  X| axiom Shared1U32.Insts.CoreOpsArithMulShared0U32U32.mul
+### L17_rev  charon=0 aeneas=0 lean=0
+### L18_fold  charon=0 aeneas=0 lean=0
+  X| axiom U32.Insts.CoreOpsArithAddShared0U32U32.add
+  X| axiom core.slice.iter.Iter.Insts.CoreIterTraitsIteratorIteratorSharedAT.fold
+### L19_sum  charon=0 aeneas=0 lean=0
+  X| axiom U32.Insts.CoreIterTraitsAccumSumSharedAU32.sum
+  X| axiom core.iter.traits.iterator.Iterator.sum.default
+### L20_collect  charon=0 aeneas=0 lean=0
+### L21_closure_capture_iter  charon=0 aeneas=0 lean=1
+  X| axiom core.iter.traits.iterator.Iterator.any.default
+  X| axiom core.iter.traits.iterator.Iterator.map.default
+  X| axiom core.iter.adapters.map.Map.Insts.CoreIterTraitsIteratorIterator.next
+  X| axiom core.slice.iter.Iter.Insts.CoreIterTraitsIteratorIteratorSharedAT.any
+  L| ../out/L21_closure_capture_iter/lean/L21ClosureCaptureIter.lean:77:2: error: `map` is not a field of structure `core.iter.traits.iterator.Iterator`
+  L| ../out/L21_closure_capture_iter/lean/L21ClosureCaptureIter.lean:83:2: error: `collect` is not a field of structure `core.iter.traits.iterator.Iterator`
+  L| ../out/L21_closure_capture_iter/lean/L21ClosureCaptureIter.lean:89:2: error: `any` is not a field of structure `core.iter.traits.iterator.Iterator`
+### L22_loop_mut_borrow  charon=0 aeneas=0 lean=0
+### L23_loop_return_borrow  charon=0 aeneas=0 lean=0
+### L24_while_let_vec_pop  charon=0 aeneas=0 lean=0
+  X| axiom alloc.vec.Vec.pop
+### L25_custom_iterator  charon=0 aeneas=0 lean=0
+### L26_infinite_loop  charon=0 aeneas=1 lean=0
+  A| Translated transparent functions:  [-------------------------------------] 0/1 ⠋[Error] (Infinite) loops which do not contain breaks are not supported yet
+  A| Source: 'cases/L26_infinite_loop.rs', lines 2:4-2:11
+  A| [Warn ] Could not translate the body of function 'l26_infinite_loop::spin because of previous error
+### L27_loop_exit_only_return  charon=0 aeneas=0 lean=0
+### L28_return_and_break_then_code  charon=0 aeneas=0 lean=0
+### L29_two_loops_with_return  charon=0 aeneas=1 lean=0
+  A| Applied prepasses:  [--------------------------------------------------]  0/25 ⠋Applied prepasses:  [##------------------------------------------------]  1/25 ⠋[Error] Breaks to outer loops are not supported yet
+  A| Source: 'cases/L29_two_loops_with_return.rs', lines 1:0-17:1
+  A| [Error] Ignoring the body of 'l29_two_loops_with_return::f' because of previous error
+  A| Source: 'cases/L29_two_loops_with_return.rs', lines 1:0-17:1
+  A| Applied prepasses:  [##################################################] 25/25 ✔️
+  X| axiom f : Slice Std.U32 → Result (Option Std.Usize)
+### L30_for_range_count  charon=0 aeneas=0 lean=0
+### R01_recursion  charon=0 aeneas=0 lean=0
+### R02_mutual  charon=0 aeneas=0 lean=0
+### R03_mutual_inductive  charon=0 aeneas=0 lean=1
+  L| ../out/R03_mutual_inductive/lean/R03MutualInductive.lean:49:10: error: Could not prove 'r03_mutual_inductive.tsum' to be monotone in its recursive calls:
+### S01_hashmap  charon=0 aeneas=0 lean=0
+  X| axiom U32.Insts.CoreHashHash.hash
+  X| axiom core.option.OptionShared0T.copied
+  X| axiom std.collections.hash.map.HashMap (K : Type _) (V : Type _) (S : Type _)
+  X| axiom std.hash.random.RandomState : Type
+  X| axiom std.collections.hash.map.HashMapKVRandomStateGlobal.new
+  X| axiom std.collections.hash.map.HashMap.get
+  X| axiom std.collections.hash.map.HashMap.insert
+  X| axiom std.hash.random.DefaultHasher : Type
+  X| axiom std.hash.random.DefaultHasher.Insts.CoreHashHasher.finish
+  X| axiom std.hash.random.DefaultHasher.Insts.CoreHashHasher.write
+### S02_cmp_minmax  charon=0 aeneas=0 lean=0
+### S03_mem_swap_replace  charon=0 aeneas=0 lean=0
+  X| axiom core.mem.take
+  X| axiom alloc.vec.Vec.Insts.CoreDefaultDefault.default
+### S04_slice_methods  charon=0 aeneas=0 lean=0
+  X| axiom alloc.slice.Slice.sort
+### S05_fmt_print  charon=0 aeneas=0 lean=0
+  X| axiom core.hint.must_use {T : Type _} : T → Result T
+  X| axiom alloc.fmt.format : core.fmt.Arguments → Result String
+### S06_vecdeque_btree  charon=0 aeneas=0 lean=0
+  X| axiom alloc.collections.btree.map.BTreeMap (K : Type _) (V : Type _) (A :
+  X| axiom alloc.collections.btree.map.BTreeMapKVGlobal.new
+  X| axiom alloc.collections.btree.map.BTreeMap.insert
+  X| axiom alloc.collections.btree.map.BTreeMap.len
+  X| axiom alloc.collections.vec_deque.VecDeque (T : Type _) (A : Type _) : Type
+  X| axiom alloc.collections.vec_deque.VecDequeTGlobal.new
+  X| axiom alloc.collections.vec_deque.VecDeque.pop_front
+  X| axiom alloc.collections.vec_deque.VecDeque.push_back
+### S07_from_into  charon=0 aeneas=0 lean=0
+### S08_drop_impl  charon=0 aeneas=0 lean=0
+### T01_trait_generic  charon=0 aeneas=0 lean=0
+### T02_assoc_types  charon=0 aeneas=0 lean=0
+### T03_const_generics  charon=0 aeneas=0 lean=0
+### T04b_box_dyn  charon=0 aeneas=1 lean=0
+  A| Translated transparent functions:  [-------------------------------------] 0/3 ⠋[Error] Function pointers are not supported yet
+  A| Source: 'cases/T04b_box_dyn.rs', lines 5:43-5:51
+  A| [Warn ] Could not translate the body of function 't04b_box_dyn::use_box because of previous error
+### T04_dyn_trait  charon=0 aeneas=1 lean=0
+  A| Translated transparent functions:  [-------------------------------------] 0/3 ⠋[Error] Function pointers are not supported yet
+  A| Source: 'cases/T04_dyn_trait.rs', lines 4:40-4:48
+  A| [Warn ] Could not translate the body of function 't04_dyn_trait::area_dyn because of previous error
+### T05_default_supertrait  charon=0 aeneas=0 lean=0
+### T06_generic_struct_impl  charon=0 aeneas=0 lean=0
+### T07_impl_trait_arg_ret  charon=0 aeneas=0 lean=0
+### T08_generic_trait_static  charon=0 aeneas=0 lean=0
+### U01_raw_ptr  charon=0 aeneas=1 lean=0
+  A| Translated transparent functions:  [-------------------------------------] 0/1 ⠋[Error] Unsupported operation: &raw mut (*x)
+  A| Source: 'cases/U01_raw_ptr.rs', lines 1:40-1:41
+  A| [Warn ] Could not translate the body of function 'u01_raw_ptr::rp because of previous error
+### U02_ptr_cast  charon=0 aeneas=1 lean=0
+  A| Translated transparent functions:  [-------------------------------------] 0/2 ⠋[Error] Unsupported operation: &raw const (*x)
+  A| Source: 'cases/U02_ptr_cast.rs', lines 1:35-1:36
+  A| [Warn ] Could not translate the body of function 'u02_ptr_cast::pc because of previous error
+  A| [Error] Unsupported operation: &raw const (*x)
+  A| Source: 'cases/U02_ptr_cast.rs', lines 2:32-2:33
+  A| [Warn ] Could not translate the body of function 'u02_ptr_cast::addr because of previous error
+### U03_union  charon=0 aeneas=1 lean=0
+  A| [Error] unions are not supported
+  A| Source: 'cases/U03_union.rs', lines 1:0-1:38
+  A| [Error] Encountered an error when analyzing the following type declarations group:
+  A| u03_union::U (Source: 'cases/U03_union.rs', lines 1:0-1:38)
+  A| Source: 'cases/U03_union.rs', lines 1:0-1:38
+  A| [Error] Internal error: please file an issue
+  A| Source: 'cases/U03_union.rs', lines 1:0-1:38
+  A| [Warn ] Could not translate type decl 'u03_union::U because of previous error
+  A| [Error] Internal error: please file an issue
+  A| Source: 'cases/U03_union.rs', lines 2:0-2:43
+  A| [Warn ] Could not translate the function signature of 'u03_union::read because of previous error
+  A| Translated transparent functions:  [-------------------------------------] 0/1 ⠋[Error] Internal error: please file an issue
+### U04_transmute  charon=0 aeneas=0 lean=0
+  X| axiom core.intrinsics.transmute
+### U05_unsafe_fn_ptr_read  charon=0 aeneas=1 lean=0
+  A| Translated transparent functions:  [-------------------------------------] 0/2 ⠋[Error] Unsupported operation: &raw const (*x)
+  A| Source: 'cases/U05_unsafe_fn_ptr_read.rs', lines 2:47-2:48
+  A| [Warn ] Could not translate the body of function 'u05_unsafe_fn_ptr_read::safe_call because of previous error
+  X| axiom core.ptr.read {T : Type _} : ConstRawPtr T → Result T
+### U06_static_mut  charon=0 aeneas=1 lean=0
+  A| Translated transparent functions:  [-------------------------------------] 0/5 ⠋[Error] Unexpected access to a global
+  A| Source: 'cases/U06_static_mut.rs', lines 5:29-5:35
+  A| [Warn ] Could not translate the body of function 'u06_static_mut::g because of previous error
+### X01_thread  charon=0 aeneas=0 lean=1
+  X| axiom core.any.TypeId : Type
+  X| axiom P.Insts.CoreFmtDebug.fmt
+  X| axiom std.thread.join_handle.JoinHandle (T : Type _) : Type
+  X| axiom std.thread.functions.spawn
+  X| axiom std.thread.join_handle.JoinHandle.join
+  X| axiom Box.Insts.CoreFmtDebug.fmt
+  L| ../out/X01_thread/lean/X01Thread.lean:126:0: error: declaration `x01_thread.spawn` contains universe level metavariables at the expression
+### X02_mutex  charon=0 aeneas=0 lean=0
+  X| axiom std.sync.poison.mutex.Mutex (T : Type _) : Type
+  X| axiom std.sync.poison.mutex.MutexGuard (T : Type _) : Type
+  X| axiom std.sync.poison.PoisonError (T : Type _) : Type
+  X| axiom std.sync.poison.mutex.Mutex.lock
+  X| axiom std.sync.poison.mutex.MutexGuard.Insts.CoreOpsDerefDerefMut.deref_mut
+  X| axiom std.sync.poison.PoisonError.Insts.CoreFmtDebug.fmt
+### X03_atomic  charon=0 aeneas=0 lean=0
+  X| axiom core.sync.atomic.private.Align4 (T : Type _) : Type
+  X| axiom core.sync.atomic.Atomic (T : Type _) (Clause0_Storage : Type _) : Type
+  X| axiom core.sync.atomic.AtomicU32Align4U32.fetch_add
+### X04_async  charon=0 aeneas=1 lean=0
+  A| [Error] Found type error in the output of charon
+  A| Source: 'cases/X04_async.rs', lines 1:0-1:39
+  A| [Warn ] Could not translate the function signature of 'x04_async::f because of previous error
+  A| [Error] Found type error in the output of charon
+  A| Source: 'cases/X04_async.rs', lines 2:0-2:38
+  A| [Warn ] Could not translate the function signature of 'x04_async::g because of previous error
+  A| Translated opaque functions:  [------------------------------------------] 0/2 ⠋[Error] Internal error: please file an issue
+  A| Source: 'cases/X04_async.rs', lines 1:0-1:39
+  A| [Error] Internal error: please file an issue
+  A| Source: 'cases/X04_async.rs', lines 2:0-2:38
+  A| [Warn ] Could not translate the function 'x04_async::g because of previous error.

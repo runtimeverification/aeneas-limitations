@@ -1,0 +1,11 @@
+[[92mInfo[39m ] Imported: out/T01_trait_generic/T01_trait_generic.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/27 ⠋Applied prepasses:  [#-------------------------------------------------]  1/27 ⠋Applied prepasses:  [#####################################-------------] 20/27 ⠋Applied prepasses:  [##################################################] 27/27 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/2 ⠋Translated globals:  [###################################################] 2/2 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/0 ⠋Translated opaque functions:  [------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/5 ⠋Translated transparent functions:  [#######------------------------------] 1/5 ⠙Translated transparent functions:  [#####################################] 5/5 ✔️
+[?25h[?25lTranslated trait declarations:  [----------------------------------------] 0/6 ⠋Translated trait declarations:  [######----------------------------------] 1/6 ✔️
+[?25h[?25lTranslated trait impls:  [-----------------------------------------------] 0/9 ⠋Translated trait impls:  [#####------------------------------------------] 1/9 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/0 ⠋Post-processed translated opaque functions:  [---------------------------] 0/0 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/5 ⠋Post-processed translated transparent functions:  [####------------------] 1/5 ⠙Post-processed translated transparent functions:  [######################] 5/5 ✔️
+[?25h[[92mInfo[39m ] Generated: out/T01_trait_generic/lean/T01TraitGeneric.lean
+[[92mInfo[39m ] Total execution time: 0.406560 seconds

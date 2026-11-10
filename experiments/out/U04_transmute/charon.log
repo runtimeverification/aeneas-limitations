@@ -1,0 +1,16 @@
+warning: unnecessary transmute
+ --> cases/U04_transmute.rs:1:40
+  |
+1 | pub fn t(x: u32) -> [u8; 4] { unsafe { core::mem::transmute(x) } }
+  |                                        ^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+  = note: `#[warn(unnecessary_transmutes)]` on by default
+help: replace this with
+  |
+1 - pub fn t(x: u32) -> [u8; 4] { unsafe { core::mem::transmute(x) } }
+1 + pub fn t(x: u32) -> [u8; 4] { unsafe { u32::to_ne_bytes(x) } }
+  |
+
+warning: 1 warning emitted
+

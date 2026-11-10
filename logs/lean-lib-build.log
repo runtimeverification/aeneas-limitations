@@ -1,0 +1,390 @@
+info: Version 4.2.4 of elan is available! Use `elan self update` to update.
+info: downloading https://releases.lean-lang.org/lean4/v4.36.0-rc2/lean-4.36.0-rc2-linux.tar.zst
+info: installing ./tools/elan/toolchains/leanprover--lean4---v4.36.0-rc2
+info: mathlib: materializing new dependency
+info: mathlib: fetching revision '9d581dfff2e41de989072ea63abf3daf69311520' from https://github.com/leanprover-community/mathlib4.git
+info: mathlib: checking out revision '9d581dfff2e41de989072ea63abf3daf69311520'
+info: plausible: materializing new dependency
+info: plausible: fetching revision '129d1ba9a16bc0660f46c79e9fb041ef5d5d80de' from https://github.com/leanprover-community/plausible
+info: plausible: checking out revision '129d1ba9a16bc0660f46c79e9fb041ef5d5d80de'
+info: LeanSearchClient: materializing new dependency
+info: LeanSearchClient: fetching revision 'c61286b7b63cbfd563b28e11e81d0a18233a044a' from https://github.com/leanprover-community/LeanSearchClient
+info: LeanSearchClient: checking out revision 'c61286b7b63cbfd563b28e11e81d0a18233a044a'
+info: importGraph: materializing new dependency
+info: importGraph: fetching revision 'b8cc5dd0a36233b88a6ed5a7dbf1207d09338c60' from https://github.com/leanprover-community/import-graph
+info: importGraph: checking out revision 'b8cc5dd0a36233b88a6ed5a7dbf1207d09338c60'
+info: proofwidgets: materializing new dependency
+info: proofwidgets: fetching revision '16259c0d07d61ee37d999d05b5cf96338b8daa11' from https://github.com/leanprover-community/ProofWidgets4
+info: proofwidgets: checking out revision '16259c0d07d61ee37d999d05b5cf96338b8daa11'
+info: aesop: materializing new dependency
+info: aesop: fetching revision '7d11bfa88558f8d3d90afdf6bd877ed70001498d' from https://github.com/leanprover-community/aesop
+info: aesop: checking out revision '7d11bfa88558f8d3d90afdf6bd877ed70001498d'
+info: Qq: materializing new dependency
+info: Qq: fetching revision 'b0256621cb88178e9ad932a53633077b3029e621' from https://github.com/leanprover-community/quote4
+info: Qq: checking out revision 'b0256621cb88178e9ad932a53633077b3029e621'
+info: batteries: materializing new dependency
+info: batteries: fetching revision 'd4c39b228d4a06f3b00748c2c445a7b9f056a6e3' from https://github.com/leanprover-community/batteries
+info: batteries: checking out revision 'd4c39b228d4a06f3b00748c2c445a7b9f056a6e3'
+info: Cli: materializing new dependency
+info: Cli: fetching revision 'c09cb1e4f1e6e1c231a1175a12b681b075054a1b' from https://github.com/leanprover/lean4-cli
+info: Cli: checking out revision 'c09cb1e4f1e6e1c231a1175a12b681b075054a1b'
+✔ [1/7] Built Cache.Cli (482ms)
+✔ [3/7] Built Cache.Lean (591ms)
+✔ [8/61] Built Cache.Cli:c.o (504ms)
+✔ [9/61] Built Cache.Lean:c.o (493ms)
+✔ [10/61] Built Cache.Env (1.0s)
+✔ [12/61] Built Cache.Env:c.o (153ms)
+✔ [13/61] Built Cache.Infra (350ms)
+✔ [15/61] Built Cache.Infra:c.o (187ms)
+✔ [16/61] Built Batteries.Tactic.OpenPrivate (1.9s)
+✔ [18/61] Built Cache.Location (449ms)
+✔ [20/61] Built Cache.Location:c.o (198ms)
+✔ [21/61] Built Batteries.Tactic.OpenPrivate:c.o (771ms)
+✔ [22/61] Built Cache.IO (1.2s)
+✔ [24/61] Built Cache.Hashing (404ms)
+✔ [26/61] Built Cache.Hashing:c.o (355ms)
+✔ [27/61] Built Cache.IO:c.o (1.1s)
+✔ [28/61] Built Cache.Requests (1.2s)
+✔ [30/61] Built Cache.Marker (244ms)
+✔ [32/61] Built Cache.Marker:c.o (89ms)
+✔ [33/61] Built Cache.Upload.Curl (316ms)
+✔ [35/61] Built Cache.Upload.Rclone (330ms)
+✔ [37/61] Built Cache.Query (395ms)
+✔ [39/61] Built Cache.Upload.Curl:c.o (133ms)
+✔ [40/61] Built Cache.Upload.Rclone:c.o (181ms)
+✔ [41/61] Built Cache.Upload.Azure (305ms)
+✔ [43/61] Built Cache.Upload.S3 (352ms)
+✔ [45/61] Built Cache.Upload.Azure:c.o (83ms)
+✔ [46/61] Built Cache.Query:c.o (215ms)
+✔ [47/61] Built Cache.Warning (353ms)
+✔ [49/61] Built Cache.Upload.S3:c.o (180ms)
+✔ [50/61] Built Cache.Upload.Defs (242ms)
+✔ [52/61] Built Cache.Warning:c.o (192ms)
+✔ [53/61] Built Cache.Upload.Defs:c.o (104ms)
+✔ [54/61] Built Cache.Upload (213ms)
+✔ [56/61] Built Cache.Upload:c.o (68ms)
+✔ [57/61] Built Cache.Requests:c.o (1.8s)
+✔ [58/61] Built Cache.Main (702ms)
+✔ [60/61] Built Cache.Main:c.o (574ms)
+✔ [61/61] Built cache:exe (1.1s)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0 10.4M    0 58789    0     0  15024      0  0:12:06  0:00:03  0:12:03 29872 20 10.4M   20 2142k    0     0   436k      0  0:00:24  0:00:04  0:00:20  724k100 10.4M  100 10.4M    0     0  1838k      0  0:00:05  0:00:05 --:--:-- 2767k
+
+Downloading curl 8.23.0 (found 7.81)
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+Attempting to download 9081 file(s) from leanprover-community/mathlib4 cache at https://cache.mathlib.org/mathlib4-master
+Downloaded: 1 file(s) [attempted 1/9081 = 0%, 11 KB/s]Downloaded: 3 file(s) [attempted 3/9081 = 0%, 6 KB/s]Downloaded: 5 file(s) [attempted 5/9081 = 0%, 6 KB/s]Downloaded: 6 file(s) [attempted 6/9081 = 0%, 13 KB/s]Downloaded: 9 file(s) [attempted 9/9081 = 0%, 12 KB/s]Downloaded: 16 file(s) [attempted 16/9081 = 0%, 7 KB/s]Downloaded: 22 file(s) [attempted 22/9081 = 0%, 11 KB/s]Downloaded: 31 file(s) [attempted 31/9081 = 0%, 9 KB/s]Downloaded: 44 file(s) [attempted 44/9081 = 0%, 31 KB/s]Downloaded: 60 file(s) [attempted 60/9081 = 0%, 19 KB/s]Downloaded: 79 file(s) [attempted 79/9081 = 0%, 439 KB/s]Downloaded: 88 file(s) [attempted 88/9081 = 0%, 147 KB/s]Downloaded: 115 file(s) [attempted 115/9081 = 1%, 28 KB/s]Downloaded: 138 file(s) [attempted 138/9081 = 1%, 36 KB/s]Downloaded: 147 file(s) [attempted 147/9081 = 1%, 172 KB/s]Downloaded: 162 file(s) [attempted 162/9081 = 1%, 199 KB/s]Downloaded: 190 file(s) [attempted 190/9081 = 2%, 68 KB/s]Downloaded: 208 file(s) [attempted 208/9081 = 2%, 268 KB/s]Downloaded: 219 file(s) [attempted 219/9081 = 2%, 11 KB/s]Downloaded: 235 file(s) [attempted 235/9081 = 2%, 368 KB/s]Downloaded: 261 file(s) [attempted 261/9081 = 2%, 10 KB/s]Downloaded: 282 file(s) [attempted 282/9081 = 3%, 124 KB/s]Downloaded: 298 file(s) [attempted 298/9081 = 3%, 34 KB/s]Downloaded: 323 file(s) [attempted 323/9081 = 3%, 300 KB/s]Downloaded: 341 file(s) [attempted 341/9081 = 3%, 272 KB/s]Downloaded: 368 file(s) [attempted 368/9081 = 4%, 41 KB/s]Downloaded: 386 file(s) [attempted 386/9081 = 4%, 47 KB/s]Downloaded: 395 file(s) [attempted 395/9081 = 4%, 155 KB/s]Downloaded: 420 file(s) [attempted 420/9081 = 4%, 461 KB/s]Downloaded: 442 file(s) [attempted 442/9081 = 4%, 209 KB/s]Downloaded: 453 file(s) [attempted 453/9081 = 4%, 43 KB/s]Downloaded: 478 file(s) [attempted 478/9081 = 5%, 113 KB/s]Downloaded: 498 file(s) [attempted 498/9081 = 5%, 433 KB/s]Downloaded: 511 file(s) [attempted 511/9081 = 5%, 148 KB/s]Downloaded: 537 file(s) [attempted 537/9081 = 5%, 392 KB/s]Downloaded: 552 file(s) [attempted 552/9081 = 6%, 255 KB/s]Downloaded: 576 file(s) [attempted 576/9081 = 6%, 37 KB/s]Downloaded: 591 file(s) [attempted 591/9081 = 6%, 1728 KB/s]Downloaded: 621 file(s) [attempted 621/9081 = 6%, 100 KB/s]Downloaded: 640 file(s) [attempted 640/9081 = 7%, 150 KB/s]Downloaded: 668 file(s) [attempted 668/9081 = 7%, 112 KB/s]Downloaded: 689 file(s) [attempted 689/9081 = 7%, 124 KB/s]Downloaded: 712 file(s) [attempted 712/9081 = 7%, 41 KB/s]Downloaded: 738 file(s) [attempted 738/9081 = 8%, 372 KB/s]Downloaded: 758 file(s) [attempted 758/9081 = 8%, 226 KB/s]Downloaded: 771 file(s) [attempted 771/9081 = 8%, 190 KB/s]Downloaded: 798 file(s) [attempted 798/9081 = 8%, 175 KB/s]Downloaded: 812 file(s) [attempted 812/9081 = 8%, 906 KB/s]Downloaded: 829 file(s) [attempted 829/9081 = 9%, 22 KB/s]Downloaded: 856 file(s) [attempted 856/9081 = 9%, 124 KB/s]Downloaded: 875 file(s) [attempted 875/9081 = 9%, 42 KB/s]Downloaded: 889 file(s) [attempted 889/9081 = 9%, 37 KB/s]Downloaded: 924 file(s) [attempted 924/9081 = 10%, 86 KB/s]Downloaded: 935 file(s) [attempted 935/9081 = 10%, 22 KB/s]Downloaded: 954 file(s) [attempted 954/9081 = 10%, 62 KB/s]Downloaded: 982 file(s) [attempted 982/9081 = 10%, 209 KB/s]Downloaded: 992 file(s) [attempted 992/9081 = 10%, 84 KB/s]Downloaded: 1016 file(s) [attempted 1016/9081 = 11%, 235 KB/s]Downloaded: 1039 file(s) [attempted 1039/9081 = 11%, 389 KB/s]Downloaded: 1054 file(s) [attempted 1054/9081 = 11%, 175 KB/s]Downloaded: 1087 file(s) [attempted 1087/9081 = 11%, 467 KB/s]Downloaded: 1102 file(s) [attempted 1102/9081 = 12%, 137 KB/s]Downloaded: 1114 file(s) [attempted 1114/9081 = 12%, 345 KB/s]Downloaded: 1137 file(s) [attempted 1137/9081 = 12%, 93 KB/s]Downloaded: 1161 file(s) [attempted 1161/9081 = 12%, 106 KB/s]Downloaded: 1182 file(s) [attempted 1182/9081 = 13%, 117 KB/s]Downloaded: 1205 file(s) [attempted 1205/9081 = 13%, 143 KB/s]Downloaded: 1227 file(s) [attempted 1227/9081 = 13%, 85 KB/s]Downloaded: 1248 file(s) [attempted 1248/9081 = 13%, 136 KB/s]Downloaded: 1264 file(s) [attempted 1264/9081 = 13%, 368 KB/s]Downloaded: 1288 file(s) [attempted 1288/9081 = 14%, 260 KB/s]Downloaded: 1313 file(s) [attempted 1313/9081 = 14%, 50 KB/s]Downloaded: 1332 file(s) [attempted 1332/9081 = 14%, 211 KB/s]Downloaded: 1360 file(s) [attempted 1360/9081 = 14%, 286 KB/s]Downloaded: 1370 file(s) [attempted 1370/9081 = 15%, 166 KB/s]Downloaded: 1391 file(s) [attempted 1391/9081 = 15%, 56 KB/s]Downloaded: 1409 file(s) [attempted 1409/9081 = 15%, 103 KB/s]Downloaded: 1438 file(s) [attempted 1438/9081 = 15%, 14 KB/s]Downloaded: 1459 file(s) [attempted 1459/9081 = 16%, 284 KB/s]Downloaded: 1477 file(s) [attempted 1477/9081 = 16%, 356 KB/s]Downloaded: 1509 file(s) [attempted 1509/9081 = 16%, 198 KB/s]Downloaded: 1523 file(s) [attempted 1523/9081 = 16%, 253 KB/s]Downloaded: 1543 file(s) [attempted 1543/9081 = 16%, 24 KB/s]Downloaded: 1572 file(s) [attempted 1572/9081 = 17%, 182 KB/s]Downloaded: 1586 file(s) [attempted 1586/9081 = 17%, 91 KB/s]Downloaded: 1606 file(s) [attempted 1606/9081 = 17%, 12 KB/s]Downloaded: 1635 file(s) [attempted 1635/9081 = 18%, 107 KB/s]Downloaded: 1653 file(s) [attempted 1653/9081 = 18%, 217 KB/s]Downloaded: 1667 file(s) [attempted 1667/9081 = 18%, 321 KB/s]Downloaded: 1695 file(s) [attempted 1695/9081 = 18%, 30 KB/s]Downloaded: 1714 file(s) [attempted 1714/9081 = 18%, 15 KB/s]Downloaded: 1734 file(s) [attempted 1734/9081 = 19%, 164 KB/s]Downloaded: 1744 file(s) [attempted 1744/9081 = 19%, 850 KB/s]Downloaded: 1775 file(s) [attempted 1775/9081 = 19%, 192 KB/s]Downloaded: 1794 file(s) [attempted 1794/9081 = 19%, 174 KB/s]Downloaded: 1811 file(s) [attempted 1811/9081 = 19%, 163 KB/s]Downloaded: 1843 file(s) [attempted 1843/9081 = 20%, 69 KB/s]Downloaded: 1852 file(s) [attempted 1852/9081 = 20%, 117 KB/s]Downloaded: 1871 file(s) [attempted 1871/9081 = 20%, 464 KB/s]Downloaded: 1896 file(s) [attempted 1896/9081 = 20%, 11 KB/s]Downloaded: 1912 file(s) [attempted 1912/9081 = 21%, 251 KB/s]Downloaded: 1935 file(s) [attempted 1935/9081 = 21%, 121 KB/s]Downloaded: 1957 file(s) [attempted 1957/9081 = 21%, 136 KB/s]Downloaded: 1968 file(s) [attempted 1968/9081 = 21%, 117 KB/s]Downloaded: 1995 file(s) [attempted 1995/9081 = 21%, 224 KB/s]Downloaded: 2004 file(s) [attempted 2004/9081 = 22%, 73 KB/s]Downloaded: 2012 file(s) [attempted 2012/9081 = 22%, 33 KB/s]Downloaded: 2023 file(s) [attempted 2023/9081 = 22%, 42 KB/s]Downloaded: 2054 file(s) [attempted 2054/9081 = 22%, 203 KB/s]Downloaded: 2073 file(s) [attempted 2073/9081 = 22%, 42 KB/s]Downloaded: 2079 file(s) [attempted 2079/9081 = 22%, 24 KB/s]Downloaded: 2105 file(s) [attempted 2105/9081 = 23%, 111 KB/s]Downloaded: 2129 file(s) [attempted 2129/9081 = 23%, 90 KB/s]Downloaded: 2152 file(s) [attempted 2152/9081 = 23%, 180 KB/s]Downloaded: 2173 file(s) [attempted 2173/9081 = 23%, 58 KB/s]Downloaded: 2191 file(s) [attempted 2191/9081 = 24%, 35 KB/s]Downloaded: 2217 file(s) [attempted 2217/9081 = 24%, 226 KB/s]Downloaded: 2237 file(s) [attempted 2237/9081 = 24%, 58 KB/s]Downloaded: 2259 file(s) [attempted 2259/9081 = 24%, 176 KB/s]Downloaded: 2285 file(s) [attempted 2285/9081 = 25%, 44 KB/s]Downloaded: 2302 file(s) [attempted 2302/9081 = 25%, 416 KB/s]Downloaded: 2328 file(s) [attempted 2328/9081 = 25%, 137 KB/s]Downloaded: 2351 file(s) [attempted 2351/9081 = 25%, 54 KB/s]Downloaded: 2374 file(s) [attempted 2374/9081 = 26%, 139 KB/s]Downloaded: 2401 file(s) [attempted 2401/9081 = 26%, 164 KB/s]Downloaded: 2419 file(s) [attempted 2419/9081 = 26%, 352 KB/s]Downloaded: 2442 file(s) [attempted 2442/9081 = 26%, 240 KB/s]Downloaded: 2462 file(s) [attempted 2462/9081 = 27%, 75 KB/s]Downloaded: 2487 file(s) [attempted 2487/9081 = 27%, 22 KB/s]Downloaded: 2506 file(s) [attempted 2506/9081 = 27%, 25 KB/s]Downloaded: 2507 file(s) [attempted 2507/9081 = 27%, 34 KB/s]Downloaded: 2519 file(s) [attempted 2519/9081 = 27%, 87 KB/s]Downloaded: 2535 file(s) [attempted 2535/9081 = 27%, 81 KB/s]Downloaded: 2558 file(s) [attempted 2558/9081 = 28%, 46 KB/s]Downloaded: 2567 file(s) [attempted 2567/9081 = 28%, 53 KB/s]Downloaded: 2585 file(s) [attempted 2585/9081 = 28%, 101 KB/s]Downloaded: 2617 file(s) [attempted 2617/9081 = 28%, 84 KB/s]Downloaded: 2632 file(s) [attempted 2632/9081 = 28%, 51 KB/s]Downloaded: 2657 file(s) [attempted 2657/9081 = 29%, 299 KB/s]Downloaded: 2681 file(s) [attempted 2681/9081 = 29%, 172 KB/s]Downloaded: 2700 file(s) [attempted 2700/9081 = 29%, 60 KB/s]Downloaded: 2722 file(s) [attempted 2722/9081 = 29%, 275 KB/s]Downloaded: 2744 file(s) [attempted 2744/9081 = 30%, 45 KB/s]Downloaded: 2756 file(s) [attempted 2756/9081 = 30%, 346 KB/s]Downloaded: 2781 file(s) [attempted 2781/9081 = 30%, 79 KB/s]Downloaded: 2785 file(s) [attempted 2785/9081 = 30%, 72 KB/s]Downloaded: 2815 file(s) [attempted 2815/9081 = 30%, 86 KB/s]Downloaded: 2835 file(s) [attempted 2835/9081 = 31%, 8 KB/s]Downloaded: 2848 file(s) [attempted 2848/9081 = 31%, 283 KB/s]Downloaded: 2883 file(s) [attempted 2883/9081 = 31%, 53 KB/s]Downloaded: 2897 file(s) [attempted 2897/9081 = 31%, 42 KB/s]Downloaded: 2909 file(s) [attempted 2909/9081 = 32%, 59 KB/s]Downloaded: 2938 file(s) [attempted 2938/9081 = 32%, 303 KB/s]Downloaded: 2959 file(s) [attempted 2959/9081 = 32%, 347 KB/s]Downloaded: 2975 file(s) [attempted 2975/9081 = 32%, 33 KB/s]Downloaded: 2996 file(s) [attempted 2996/9081 = 32%, 63 KB/s]Downloaded: 3010 file(s) [attempted 3010/9081 = 33%, 237 KB/s]Downloaded: 3033 file(s) [attempted 3033/9081 = 33%, 810 KB/s]Downloaded: 3057 file(s) [attempted 3057/9081 = 33%, 48 KB/s]Downloaded: 3067 file(s) [attempted 3067/9081 = 33%, 102 KB/s]Downloaded: 3100 file(s) [attempted 3100/9081 = 34%, 230 KB/s]Downloaded: 3112 file(s) [attempted 3112/9081 = 34%, 64 KB/s]Downloaded: 3131 file(s) [attempted 3131/9081 = 34%, 15 KB/s]Downloaded: 3155 file(s) [attempted 3155/9081 = 34%, 365 KB/s]Downloaded: 3174 file(s) [attempted 3174/9081 = 34%, 13 KB/s]Downloaded: 3197 file(s) [attempted 3197/9081 = 35%, 503 KB/s]Downloaded: 3213 file(s) [attempted 3213/9081 = 35%, 196 KB/s]Downloaded: 3239 file(s) [attempted 3239/9081 = 35%, 13 KB/s]Downloaded: 3263 file(s) [attempted 3263/9081 = 35%, 146 KB/s]Downloaded: 3273 file(s) [attempted 3273/9081 = 36%, 472 KB/s]Downloaded: 3301 file(s) [attempted 3301/9081 = 36%, 206 KB/s]Downloaded: 3318 file(s) [attempted 3318/9081 = 36%, 79 KB/s]Downloaded: 3342 file(s) [attempted 3342/9081 = 36%, 288 KB/s]Downloaded: 3360 file(s) [attempted 3360/9081 = 37%, 39 KB/s]Downloaded: 3381 file(s) [attempted 3381/9081 = 37%, 289 KB/s]Downloaded: 3400 file(s) [attempted 3400/9081 = 37%, 46 KB/s]Downloaded: 3421 file(s) [attempted 3421/9081 = 37%, 19 KB/s]Downloaded: 3441 file(s) [attempted 3441/9081 = 37%, 35 KB/s]Downloaded: 3464 file(s) [attempted 3464/9081 = 38%, 161 KB/s]Downloaded: 3479 file(s) [attempted 3479/9081 = 38%, 265 KB/s]Downloaded: 3480 file(s) [attempted 3480/9081 = 38%, 88 KB/s]Downloaded: 3487 file(s) [attempted 3487/9081 = 38%, 232 KB/s]Downloaded: 3516 file(s) [attempted 3516/9081 = 38%, 42 KB/s]Downloaded: 3537 file(s) [attempted 3537/9081 = 38%, 98 KB/s]Downloaded: 3564 file(s) [attempted 3564/9081 = 39%, 101 KB/s]Downloaded: 3587 file(s) [attempted 3587/9081 = 39%, 25 KB/s]Downloaded: 3599 file(s) [attempted 3599/9081 = 39%, 31 KB/s]Downloaded: 3625 file(s) [attempted 3625/9081 = 39%, 118 KB/s]Downloaded: 3648 file(s) [attempted 3648/9081 = 40%, 289 KB/s]Downloaded: 3658 file(s) [attempted 3658/9081 = 40%, 83 KB/s]Downloaded: 3696 file(s) [attempted 3696/9081 = 40%, 38 KB/s]Downloaded: 3707 file(s) [attempted 3707/9081 = 40%, 152 KB/s]Downloaded: 3727 file(s) [attempted 3727/9081 = 41%, 92 KB/s]Downloaded: 3744 file(s) [attempted 3744/9081 = 41%, 37 KB/s]Downloaded: 3761 file(s) [attempted 3761/9081 = 41%, 49 KB/s]Downloaded: 3785 file(s) [attempted 3785/9081 = 41%, 112 KB/s]Downloaded: 3803 file(s) [attempted 3803/9081 = 41%, 124 KB/s]Downloaded: 3827 file(s) [attempted 3827/9081 = 42%, 36 KB/s]Downloaded: 3852 file(s) [attempted 3852/9081 = 42%, 39 KB/s]Downloaded: 3865 file(s) [attempted 3865/9081 = 42%, 498 KB/s]Downloaded: 3882 file(s) [attempted 3882/9081 = 42%, 508 KB/s]Downloaded: 3896 file(s) [attempted 3896/9081 = 42%, 106 KB/s]Downloaded: 3922 file(s) [attempted 3922/9081 = 43%, 59 KB/s]Downloaded: 3941 file(s) [attempted 3941/9081 = 43%, 225 KB/s]Downloaded: 3954 file(s) [attempted 3954/9081 = 43%, 28 KB/s]Downloaded: 3984 file(s) [attempted 3984/9081 = 43%, 47 KB/s]Downloaded: 3999 file(s) [attempted 3999/9081 = 44%, 104 KB/s]Downloaded: 4017 file(s) [attempted 4017/9081 = 44%, 360 KB/s]Downloaded: 4043 file(s) [attempted 4043/9081 = 44%, 33 KB/s]Downloaded: 4060 file(s) [attempted 4060/9081 = 44%, 51 KB/s]Downloaded: 4086 file(s) [attempted 4086/9081 = 44%, 26 KB/s]Downloaded: 4106 file(s) [attempted 4106/9081 = 45%, 59 KB/s]Downloaded: 4119 file(s) [attempted 4119/9081 = 45%, 26 KB/s]Downloaded: 4148 file(s) [attempted 4148/9081 = 45%, 164 KB/s]Downloaded: 4169 file(s) [attempted 4169/9081 = 45%, 58 KB/s]Downloaded: 4195 file(s) [attempted 4195/9081 = 46%, 315 KB/s]Downloaded: 4212 file(s) [attempted 4212/9081 = 46%, 280 KB/s]Downloaded: 4231 file(s) [attempted 4231/9081 = 46%, 119 KB/s]Downloaded: 4256 file(s) [attempted 4256/9081 = 46%, 54 KB/s]Downloaded: 4275 file(s) [attempted 4275/9081 = 47%, 199 KB/s]Downloaded: 4291 file(s) [attempted 4291/9081 = 47%, 62 KB/s]Downloaded: 4306 file(s) [attempted 4306/9081 = 47%, 136 KB/s]Downloaded: 4311 file(s) [attempted 4311/9081 = 47%, 348 KB/s]Downloaded: 4330 file(s) [attempted 4330/9081 = 47%, 221 KB/s]Downloaded: 4358 file(s) [attempted 4358/9081 = 47%, 12 KB/s]Downloaded: 4370 file(s) [attempted 4370/9081 = 48%, 134 KB/s]Downloaded: 4392 file(s) [attempted 4392/9081 = 48%, 23 KB/s]Downloaded: 4397 file(s) [attempted 4397/9081 = 48%, 13 KB/s]Downloaded: 4434 file(s) [attempted 4434/9081 = 48%, 107 KB/s]Downloaded: 4445 file(s) [attempted 4445/9081 = 48%, 42 KB/s]Downloaded: 4471 file(s) [attempted 4471/9081 = 49%, 105 KB/s]Downloaded: 4493 file(s) [attempted 4493/9081 = 49%, 397 KB/s]Downloaded: 4508 file(s) [attempted 4508/9081 = 49%, 210 KB/s]Downloaded: 4540 file(s) [attempted 4540/9081 = 49%, 229 KB/s]Downloaded: 4556 file(s) [attempted 4556/9081 = 50%, 181 KB/s]Downloaded: 4571 file(s) [attempted 4571/9081 = 50%, 206 KB/s]Downloaded: 4599 file(s) [attempted 4599/9081 = 50%, 121 KB/s]Downloaded: 4613 file(s) [attempted 4613/9081 = 50%, 51 KB/s]Downloaded: 4644 file(s) [attempted 4644/9081 = 51%, 238 KB/s]Downloaded: 4662 file(s) [attempted 4662/9081 = 51%, 256 KB/s]Downloaded: 4677 file(s) [attempted 4677/9081 = 51%, 811 KB/s]Downloaded: 4703 file(s) [attempted 4703/9081 = 51%, 371 KB/s]Downloaded: 4725 file(s) [attempted 4725/9081 = 52%, 106 KB/s]Downloaded: 4746 file(s) [attempted 4746/9081 = 52%, 32 KB/s]Downloaded: 4771 file(s) [attempted 4771/9081 = 52%, 78 KB/s]Downloaded: 4790 file(s) [attempted 4790/9081 = 52%, 107 KB/s]Downloaded: 4809 file(s) [attempted 4809/9081 = 52%, 83 KB/s]Downloaded: 4832 file(s) [attempted 4832/9081 = 53%, 291 KB/s]Downloaded: 4852 file(s) [attempted 4852/9081 = 53%, 54 KB/s]Downloaded: 4874 file(s) [attempted 4874/9081 = 53%, 40 KB/s]Downloaded: 4900 file(s) [attempted 4900/9081 = 53%, 38 KB/s]Downloaded: 4917 file(s) [attempted 4917/9081 = 54%, 188 KB/s]Downloaded: 4934 file(s) [attempted 4934/9081 = 54%, 244 KB/s]Downloaded: 4946 file(s) [attempted 4946/9081 = 54%, 164 KB/s]Downloaded: 4977 file(s) [attempted 4977/9081 = 54%, 255 KB/s]Downloaded: 4995 file(s) [attempted 4995/9081 = 55%, 91 KB/s]Downloaded: 5017 file(s) [attempted 5017/9081 = 55%, 340 KB/s]Downloaded: 5044 file(s) [attempted 5044/9081 = 55%, 69 KB/s]Downloaded: 5050 file(s) [attempted 5050/9081 = 55%, 136 KB/s]Downloaded: 5073 file(s) [attempted 5073/9081 = 55%, 80 KB/s]Downloaded: 5093 file(s) [attempted 5093/9081 = 56%, 178 KB/s]Downloaded: 5118 file(s) [attempted 5118/9081 = 56%, 361 KB/s]Downloaded: 5142 file(s) [attempted 5142/9081 = 56%, 371 KB/s]Downloaded: 5156 file(s) [attempted 5156/9081 = 56%, 403 KB/s]Downloaded: 5187 file(s) [attempted 5187/9081 = 57%, 23 KB/s]Downloaded: 5204 file(s) [attempted 5204/9081 = 57%, 166 KB/s]Downloaded: 5227 file(s) [attempted 5227/9081 = 57%, 31 KB/s]Downloaded: 5250 file(s) [attempted 5250/9081 = 57%, 66 KB/s]Downloaded: 5261 file(s) [attempted 5261/9081 = 57%, 63 KB/s]Downloaded: 5285 file(s) [attempted 5285/9081 = 58%, 22 KB/s]Downloaded: 5310 file(s) [attempted 5310/9081 = 58%, 71 KB/s]Downloaded: 5331 file(s) [attempted 5331/9081 = 58%, 159 KB/s]Downloaded: 5352 file(s) [attempted 5352/9081 = 58%, 144 KB/s]Downloaded: 5360 file(s) [attempted 5360/9081 = 59%, 195 KB/s]Downloaded: 5381 file(s) [attempted 5381/9081 = 59%, 341 KB/s]Downloaded: 5399 file(s) [attempted 5399/9081 = 59%, 93 KB/s]Downloaded: 5425 file(s) [attempted 5425/9081 = 59%, 288 KB/s]Downloaded: 5439 file(s) [attempted 5439/9081 = 59%, 125 KB/s]Downloaded: 5459 file(s) [attempted 5459/9081 = 60%, 26 KB/s]Downloaded: 5483 file(s) [attempted 5483/9081 = 60%, 88 KB/s]Downloaded: 5498 file(s) [attempted 5498/9081 = 60%, 158 KB/s]Downloaded: 5521 file(s) [attempted 5521/9081 = 60%, 137 KB/s]Downloaded: 5548 file(s) [attempted 5548/9081 = 61%, 183 KB/s]Downloaded: 5562 file(s) [attempted 5562/9081 = 61%, 229 KB/s]Downloaded: 5587 file(s) [attempted 5587/9081 = 61%, 245 KB/s]Downloaded: 5612 file(s) [attempted 5612/9081 = 61%, 26 KB/s]Downloaded: 5634 file(s) [attempted 5634/9081 = 62%, 25 KB/s]Downloaded: 5655 file(s) [attempted 5655/9081 = 62%, 411 KB/s]Downloaded: 5676 file(s) [attempted 5676/9081 = 62%, 41 KB/s]Downloaded: 5687 file(s) [attempted 5687/9081 = 62%, 136 KB/s]Downloaded: 5712 file(s) [attempted 5712/9081 = 62%, 182 KB/s]Downloaded: 5731 file(s) [attempted 5731/9081 = 63%, 94 KB/s]Downloaded: 5750 file(s) [attempted 5750/9081 = 63%, 208 KB/s]Downloaded: 5769 file(s) [attempted 5769/9081 = 63%, 515 KB/s]Downloaded: 5793 file(s) [attempted 5793/9081 = 63%, 187 KB/s]Downloaded: 5819 file(s) [attempted 5819/9081 = 64%, 11 KB/s]Downloaded: 5839 file(s) [attempted 5839/9081 = 64%, 115 KB/s]Downloaded: 5858 file(s) [attempted 5858/9081 = 64%, 107 KB/s]Downloaded: 5883 file(s) [attempted 5883/9081 = 64%, 85 KB/s]Downloaded: 5904 file(s) [attempted 5904/9081 = 65%, 35 KB/s]Downloaded: 5926 file(s) [attempted 5926/9081 = 65%, 86 KB/s]Downloaded: 5953 file(s) [attempted 5953/9081 = 65%, 42 KB/s]Downloaded: 5961 file(s) [attempted 5961/9081 = 65%, 75 KB/s]Downloaded: 5979 file(s) [attempted 5979/9081 = 65%, 21 KB/s]Downloaded: 6004 file(s) [attempted 6004/9081 = 66%, 33 KB/s]Downloaded: 6019 file(s) [attempted 6019/9081 = 66%, 117 KB/s]Downloaded: 6039 file(s) [attempted 6039/9081 = 66%, 81 KB/s]Downloaded: 6054 file(s) [attempted 6054/9081 = 66%, 51 KB/s]Downloaded: 6074 file(s) [attempted 6074/9081 = 66%, 31 KB/s]Downloaded: 6088 file(s) [attempted 6088/9081 = 67%, 36 KB/s]Downloaded: 6107 file(s) [attempted 6107/9081 = 67%, 25 KB/s]Downloaded: 6133 file(s) [attempted 6133/9081 = 67%, 42 KB/s]Downloaded: 6148 file(s) [attempted 6148/9081 = 67%, 78 KB/s]Downloaded: 6169 file(s) [attempted 6169/9081 = 67%, 35 KB/s]Downloaded: 6191 file(s) [attempted 6191/9081 = 68%, 196 KB/s]Downloaded: 6205 file(s) [attempted 6205/9081 = 68%, 252 KB/s]Downloaded: 6236 file(s) [attempted 6236/9081 = 68%, 57 KB/s]Downloaded: 6253 file(s) [attempted 6253/9081 = 68%, 58 KB/s]Downloaded: 6267 file(s) [attempted 6267/9081 = 69%, 576 KB/s]Downloaded: 6292 file(s) [attempted 6292/9081 = 69%, 306 KB/s]Downloaded: 6317 file(s) [attempted 6317/9081 = 69%, 18 KB/s]Downloaded: 6339 file(s) [attempted 6339/9081 = 69%, 44 KB/s]Downloaded: 6358 file(s) [attempted 6358/9081 = 70%, 107 KB/s]Downloaded: 6368 file(s) [attempted 6368/9081 = 70%, 385 KB/s]Downloaded: 6388 file(s) [attempted 6388/9081 = 70%, 373 KB/s]Downloaded: 6416 file(s) [attempted 6416/9081 = 70%, 183 KB/s]Downloaded: 6427 file(s) [attempted 6427/9081 = 70%, 143 KB/s]Downloaded: 6444 file(s) [attempted 6444/9081 = 70%, 147 KB/s]Downloaded: 6464 file(s) [attempted 6464/9081 = 71%, 230 KB/s]Downloaded: 6484 file(s) [attempted 6484/9081 = 71%, 44 KB/s]Downloaded: 6501 file(s) [attempted 6501/9081 = 71%, 299 KB/s]Downloaded: 6525 file(s) [attempted 6525/9081 = 71%, 94 KB/s]Downloaded: 6548 file(s) [attempted 6548/9081 = 72%, 143 KB/s]Downloaded: 6560 file(s) [attempted 6560/9081 = 72%, 85 KB/s]Downloaded: 6573 file(s) [attempted 6573/9081 = 72%, 64 KB/s]Downloaded: 6602 file(s) [attempted 6602/9081 = 72%, 35 KB/s]Downloaded: 6622 file(s) [attempted 6622/9081 = 72%, 112 KB/s]Downloaded: 6641 file(s) [attempted 6641/9081 = 73%, 98 KB/s]Downloaded: 6663 file(s) [attempted 6663/9081 = 73%, 185 KB/s]Downloaded: 6667 file(s) [attempted 6667/9081 = 73%, 164 KB/s]Downloaded: 6684 file(s) [attempted 6684/9081 = 73%, 12 KB/s]Downloaded: 6709 file(s) [attempted 6709/9081 = 73%, 202 KB/s]Downloaded: 6723 file(s) [attempted 6723/9081 = 74%, 240 KB/s]Downloaded: 6740 file(s) [attempted 6740/9081 = 74%, 62 KB/s]Downloaded: 6769 file(s) [attempted 6769/9081 = 74%, 173 KB/s]Downloaded: 6780 file(s) [attempted 6780/9081 = 74%, 174 KB/s]Downloaded: 6807 file(s) [attempted 6807/9081 = 74%, 51 KB/s]Downloaded: 6828 file(s) [attempted 6828/9081 = 75%, 19 KB/s]Downloaded: 6848 file(s) [attempted 6848/9081 = 75%, 129 KB/s]Downloaded: 6861 file(s) [attempted 6861/9081 = 75%, 45 KB/s]Downloaded: 6889 file(s) [attempted 6889/9081 = 75%, 190 KB/s]Downloaded: 6909 file(s) [attempted 6909/9081 = 76%, 157 KB/s]Downloaded: 6930 file(s) [attempted 6930/9081 = 76%, 34 KB/s]Downloaded: 6937 file(s) [attempted 6937/9081 = 76%, 89 KB/s]Downloaded: 6953 file(s) [attempted 6953/9081 = 76%, 132 KB/s]Downloaded: 6985 file(s) [attempted 6985/9081 = 76%, 99 KB/s]Downloaded: 6993 file(s) [attempted 6993/9081 = 77%, 234 KB/s]Downloaded: 7014 file(s) [attempted 7014/9081 = 77%, 220 KB/s]Downloaded: 7041 file(s) [attempted 7041/9081 = 77%, 346 KB/s]Downloaded: 7059 file(s) [attempted 7059/9081 = 77%, 79 KB/s]Downloaded: 7085 file(s) [attempted 7085/9081 = 78%, 204 KB/s]Downloaded: 7106 file(s) [attempted 7106/9081 = 78%, 110 KB/s]Downloaded: 7131 file(s) [attempted 7131/9081 = 78%, 155 KB/s]Downloaded: 7155 file(s) [attempted 7155/9081 = 78%, 172 KB/s]Downloaded: 7167 file(s) [attempted 7167/9081 = 78%, 31 KB/s]Downloaded: 7193 file(s) [attempted 7193/9081 = 79%, 87 KB/s]Downloaded: 7212 file(s) [attempted 7212/9081 = 79%, 127 KB/s]Downloaded: 7232 file(s) [attempted 7232/9081 = 79%, 120 KB/s]Downloaded: 7255 file(s) [attempted 7255/9081 = 79%, 47 KB/s]Downloaded: 7270 file(s) [attempted 7270/9081 = 80%, 106 KB/s]Downloaded: 7302 file(s) [attempted 7302/9081 = 80%, 49 KB/s]Downloaded: 7319 file(s) [attempted 7319/9081 = 80%, 77 KB/s]Downloaded: 7342 file(s) [attempted 7342/9081 = 80%, 60 KB/s]Downloaded: 7368 file(s) [attempted 7368/9081 = 81%, 207 KB/s]Downloaded: 7377 file(s) [attempted 7377/9081 = 81%, 137 KB/s]Downloaded: 7399 file(s) [attempted 7399/9081 = 81%, 95 KB/s]Downloaded: 7422 file(s) [attempted 7422/9081 = 81%, 100 KB/s]Downloaded: 7436 file(s) [attempted 7436/9081 = 81%, 277 KB/s]Downloaded: 7466 file(s) [attempted 7466/9081 = 82%, 141 KB/s]Downloaded: 7484 file(s) [attempted 7484/9081 = 82%, 237 KB/s]Downloaded: 7500 file(s) [attempted 7500/9081 = 82%, 27 KB/s]Downloaded: 7523 file(s) [attempted 7523/9081 = 82%, 695 KB/s]Downloaded: 7545 file(s) [attempted 7545/9081 = 83%, 33 KB/s]Downloaded: 7560 file(s) [attempted 7560/9081 = 83%, 215 KB/s]Downloaded: 7580 file(s) [attempted 7580/9081 = 83%, 328 KB/s]Downloaded: 7603 file(s) [attempted 7603/9081 = 83%, 521 KB/s]Downloaded: 7618 file(s) [attempted 7618/9081 = 83%, 18 KB/s]Downloaded: 7648 file(s) [attempted 7648/9081 = 84%, 22 KB/s]Downloaded: 7668 file(s) [attempted 7668/9081 = 84%, 190 KB/s]Downloaded: 7683 file(s) [attempted 7683/9081 = 84%, 586 KB/s]Downloaded: 7717 file(s) [attempted 7717/9081 = 84%, 144 KB/s]Downloaded: 7724 file(s) [attempted 7724/9081 = 85%, 49 KB/s]Downloaded: 7749 file(s) [attempted 7749/9081 = 85%, 12 KB/s]Downloaded: 7769 file(s) [attempted 7769/9081 = 85%, 27 KB/s]Downloaded: 7777 file(s) [attempted 7777/9081 = 85%, 854 KB/s]Downloaded: 7796 file(s) [attempted 7796/9081 = 85%, 174 KB/s]Downloaded: 7816 file(s) [attempted 7816/9081 = 86%, 97 KB/s]Downloaded: 7834 file(s) [attempted 7834/9081 = 86%, 25 KB/s]Downloaded: 7857 file(s) [attempted 7857/9081 = 86%, 197 KB/s]Downloaded: 7879 file(s) [attempted 7879/9081 = 86%, 26 KB/s]Downloaded: 7895 file(s) [attempted 7895/9081 = 86%, 54 KB/s]Downloaded: 7922 file(s) [attempted 7922/9081 = 87%, 100 KB/s]Downloaded: 7944 file(s) [attempted 7944/9081 = 87%, 232 KB/s]Downloaded: 7953 file(s) [attempted 7953/9081 = 87%, 680 KB/s]Downloaded: 7962 file(s) [attempted 7962/9081 = 87%, 35 KB/s]Downloaded: 7976 file(s) [attempted 7976/9081 = 87%, 119 KB/s]Downloaded: 8002 file(s) [attempted 8002/9081 = 88%, 47 KB/s]Downloaded: 8027 file(s) [attempted 8027/9081 = 88%, 158 KB/s]Downloaded: 8044 file(s) [attempted 8044/9081 = 88%, 166 KB/s]Downloaded: 8067 file(s) [attempted 8067/9081 = 88%, 69 KB/s]Downloaded: 8091 file(s) [attempted 8091/9081 = 89%, 204 KB/s]Downloaded: 8105 file(s) [attempted 8105/9081 = 89%, 212 KB/s]Downloaded: 8125 file(s) [attempted 8125/9081 = 89%, 298 KB/s]Downloaded: 8155 file(s) [attempted 8155/9081 = 89%, 63 KB/s]Downloaded: 8171 file(s) [attempted 8171/9081 = 89%, 154 KB/s]Downloaded: 8198 file(s) [attempted 8198/9081 = 90%, 525 KB/s]Downloaded: 8219 file(s) [attempted 8219/9081 = 90%, 44 KB/s]Downloaded: 8237 file(s) [attempted 8237/9081 = 90%, 34 KB/s]Downloaded: 8261 file(s) [attempted 8261/9081 = 90%, 28 KB/s]Downloaded: 8280 file(s) [attempted 8280/9081 = 91%, 50 KB/s]Downloaded: 8304 file(s) [attempted 8304/9081 = 91%, 80 KB/s]Downloaded: 8330 file(s) [attempted 8330/9081 = 91%, 25 KB/s]Downloaded: 8344 file(s) [attempted 8344/9081 = 91%, 109 KB/s]Downloaded: 8375 file(s) [attempted 8375/9081 = 92%, 54 KB/s]Downloaded: 8393 file(s) [attempted 8393/9081 = 92%, 38 KB/s]Downloaded: 8414 file(s) [attempted 8414/9081 = 92%, 170 KB/s]Downloaded: 8429 file(s) [attempted 8429/9081 = 92%, 10 KB/s]Downloaded: 8453 file(s) [attempted 8453/9081 = 93%, 313 KB/s]Downloaded: 8475 file(s) [attempted 8475/9081 = 93%, 363 KB/s]Downloaded: 8484 file(s) [attempted 8484/9081 = 93%, 608 KB/s]Downloaded: 8501 file(s) [attempted 8501/9081 = 93%, 233 KB/s]Downloaded: 8527 file(s) [attempted 8527/9081 = 93%, 53 KB/s]Downloaded: 8549 file(s) [attempted 8549/9081 = 94%, 148 KB/s]Downloaded: 8565 file(s) [attempted 8565/9081 = 94%, 440 KB/s]Downloaded: 8581 file(s) [attempted 8581/9081 = 94%, 86 KB/s]Downloaded: 8596 file(s) [attempted 8596/9081 = 94%, 10 KB/s]Downloaded: 8626 file(s) [attempted 8626/9081 = 94%, 72 KB/s]Downloaded: 8642 file(s) [attempted 8642/9081 = 95%, 43 KB/s]Downloaded: 8662 file(s) [attempted 8662/9081 = 95%, 28 KB/s]Downloaded: 8679 file(s) [attempted 8679/9081 = 95%, 108 KB/s]Downloaded: 8704 file(s) [attempted 8704/9081 = 95%, 78 KB/s]Downloaded: 8726 file(s) [attempted 8726/9081 = 96%, 472 KB/s]Downloaded: 8750 file(s) [attempted 8750/9081 = 96%, 338 KB/s]Downloaded: 8775 file(s) [attempted 8775/9081 = 96%, 407 KB/s]Downloaded: 8788 file(s) [attempted 8788/9081 = 96%, 146 KB/s]Downloaded: 8812 file(s) [attempted 8812/9081 = 97%, 786 KB/s]Downloaded: 8828 file(s) [attempted 8828/9081 = 97%, 95 KB/s]Downloaded: 8853 file(s) [attempted 8853/9081 = 97%, 32 KB/s]Downloaded: 8871 file(s) [attempted 8871/9081 = 97%, 152 KB/s]Downloaded: 8880 file(s) [attempted 8880/9081 = 97%, 21 KB/s]Downloaded: 8902 file(s) [attempted 8902/9081 = 98%, 53 KB/s]Downloaded: 8918 file(s) [attempted 8918/9081 = 98%, 508 KB/s]Downloaded: 8939 file(s) [attempted 8939/9081 = 98%, 12 KB/s]Downloaded: 8958 file(s) [attempted 8958/9081 = 98%, 42 KB/s]Downloaded: 8982 file(s) [attempted 8982/9081 = 98%, 98 KB/s]Downloaded: 8998 file(s) [attempted 8998/9081 = 99%, 177 KB/s]Downloaded: 9029 file(s) [attempted 9029/9081 = 99%, 55 KB/s]Downloaded: 9048 file(s) [attempted 9048/9081 = 99%, 97 KB/s]Downloaded: 9075 file(s) [attempted 9075/9081 = 99%, 233 KB/s]Downloaded: 9081 file(s) [attempted 9081/9081 = 100%, 233 KB/s]
+Still decompressing downloaded files...
+Decompressed 9081 file(s)
+Already decompressed 9081 file(s)
+✔ [1847/2421] Built Aeneas.Data.Coinductive.Effect (556ms)
+✔ [2245/2851] Built AeneasMeta.Simp.RegisterCommand (637ms)
+✔ [2998/3591] Built AeneasMeta.Simp.RegisterCommand:c.o (201ms)
+✔ [2999/3591] Built Aeneas.Tactic.Solver.Grind.Attribute (760ms)
+✔ [3017/3591] Built AeneasMeta.BvEnumToBitVec (1.1s)
+✔ [3018/3591] Built Aeneas.Data.Coinductive.ITreeWP.EffectWP (610ms)
+✔ [3021/3591] Built AeneasMeta.Simp.RegisterCommand:dynlib (83ms)
+✔ [3024/3591] Built Aeneas.Tactic.Misc.FCongr.FCongr (789ms)
+✔ [3026/3591] Built AeneasMeta.BvEnumToBitVec:c.o (524ms)
+✔ [3027/3591] Built AeneasMeta.BvEnumToBitVec:dynlib (127ms)
+✔ [3028/3591] Built Aeneas.Tactic.Step.Simp (1.5s)
+✔ [3030/3591] Built Aeneas.Data.Nat (1.5s)
+✔ [3032/3591] Built Aeneas.Tactic.Step.Trace (1.9s)
+✔ [3034/3591] Built Aeneas.Data.Int (1.5s)
+✔ [3036/3591] Built AeneasMeta.UtilsCore (2.0s)
+✔ [3038/3591] Built AeneasMeta.UtilsCore:c.o (104ms)
+✔ [3039/3591] Built Aeneas.Data.ListN (1.4s)
+✔ [3041/3591] Built Aeneas.Std.Global (2.2s)
+✔ [3043/3591] Built AeneasMeta.UtilsCore:dynlib (76ms)
+✔ [3044/3591] Built Aeneas.Tactic.Simp.SimpLemmas (1.5s)
+✔ [3046/3591] Built Aeneas.Tactic.Misc.FApplyExact (1.4s)
+✔ [3048/3591] Built Aeneas.Tactic.Solver.BvTac.Init (1.2s)
+✔ [3050/3591] Built AeneasMeta.OptionConfig (2.4s)
+✔ [3052/3591] Built Aeneas.Tactic.Misc.FCongr (758ms)
+✔ [3054/3591] Built Aeneas.Tactic.Elab.TraitDefault.Init (2.2s)
+✔ [3056/3591] Built Aeneas.Std.Scalar.Elab (2.8s)
+✔ [3058/3591] Built Aeneas.Tactic.Elab.TraitDefault.Test (651ms)
+✔ [3060/3591] Built Aeneas.Tactic.Solver.Grind.Init (2.6s)
+✔ [3062/3591] Built Aeneas.Tactic.Solver.ScalarTac.Core (2.0s)
+✔ [3064/3591] Built Aeneas.Tactic.Simp.RingEqNF.Tactic (2.6s)
+✔ [3066/3591] Built Aeneas.Tactic.Elab.TraitDefault (335ms)
+✔ [3068/3591] Built AeneasMeta.OptionConfig:c.o (1.3s)
+✔ [3069/3591] Built AeneasMeta.OptionConfig:dynlib (69ms)
+✔ [3070/3591] Built Aeneas.Tactic.Solver.Grind (383ms)
+✔ [3072/3591] Built Aeneas.Tactic.Elab (364ms)
+✔ [3074/3591] Built Aeneas.Data.Coinductive.CoInd (4.2s)
+✔ [3076/3591] Built Aeneas.Extract.Extract (4.4s)
+✔ [3078/3591] Built Aeneas.Tactic.Simp.RingEqNF.Tests (1.3s)
+✔ [3080/3591] Built Aeneas.Extract (487ms)
+✔ [3082/3591] Built Aeneas.Data.Coinductive.ITree (651ms)
+✔ [3084/3591] Built Aeneas.Std.Core.Atomic (875ms)
+✔ [3086/3591] Built Aeneas.Std.Core.Panic (880ms)
+✔ [3088/3591] Built Aeneas.Std.Core.Pin (907ms)
+✔ [3090/3591] Built Aeneas.Std.Core.Result (930ms)
+✔ [3092/3591] Built Aeneas.Tactic.Simp.RingEqNF (750ms)
+✔ [3094/3591] Built Aeneas.Data.Coinductive.ITreeWP.FunctionalWP (741ms)
+✔ [3096/3591] Built AeneasMeta.Utils (3.7s)
+✔ [3098/3591] Built Aeneas.Data.Coinductive.ITreeWP.DWP (613ms)
+✔ [3100/3591] Built Aeneas.Data.Coinductive.ITreeWP.DWLP (606ms)
+✔ [3102/3591] Built Aeneas.Data.Coinductive.ITreeWP.Taxonomy (146ms)
+✔ [3104/3591] Built Aeneas.Data.Coinductive.ITreeWP.Tests (244ms)
+✔ [3106/3591] Built Aeneas.Data.Coinductive.ITreeWP (128ms)
+✔ [3108/3591] Built AeneasMeta.Utils:c.o (4.6s)
+✔ [3109/3591] Built AeneasMeta.Utils:dynlib (34ms)
+✔ [3110/3591] Built AeneasMeta.Extensions (375ms)
+✔ [3112/3591] Built AeneasMeta.Async.Async (480ms)
+✔ [3114/3591] Built AeneasMeta.Extensions:c.o (128ms)
+✔ [3115/3591] Built AeneasMeta.Extensions:dynlib (30ms)
+✔ [3116/3591] Built AeneasMeta.Simp.Simp (632ms)
+✔ [3118/3591] Built AeneasMeta.Async.Async:c.o (401ms)
+✔ [3119/3591] Built AeneasMeta.Async.Async:dynlib (33ms)
+✔ [3120/3591] Built AeneasMeta.Simp.Simp:c.o (730ms)
+✔ [3121/3591] Built AeneasMeta.Simp.Simp:dynlib (35ms)
+✔ [3122/3591] Built AeneasMeta.Saturate.Attribute (891ms)
+✔ [3124/3591] Built AeneasMeta.Simp.SimpAllAssumptions (602ms)
+✔ [3126/3591] Built AeneasMeta.Simp.SimpAllAssumptions:c.o (607ms)
+✔ [3127/3591] Built AeneasMeta.Simp.SimpAllAssumptions:dynlib (32ms)
+✔ [3128/3591] Built AeneasMeta.Saturate.Attribute:c.o (1.2s)
+✔ [3129/3591] Built AeneasMeta.Saturate.Attribute:dynlib (32ms)
+✔ [3130/3591] Built AeneasMeta.Simp (317ms)
+✔ [3132/3591] Built AeneasMeta.Simp:c.o (45ms)
+✔ [3133/3591] Built AeneasMeta.Simp:dynlib (35ms)
+✔ [3134/3591] Built AeneasMeta.Async.TestTactics (555ms)
+✔ [3136/3591] Built AeneasMeta.Async.TestTactics:c.o (206ms)
+✔ [3137/3591] Built AeneasMeta.Async.TestTactics:dynlib (32ms)
+✔ [3138/3591] Built AeneasMeta.Split (1.7s)
+✔ [3140/3591] Built AeneasMeta.Saturate.Tactic (2.3s)
+✔ [3142/3591] Built AeneasMeta.Saturate.Tactic:c.o (6.6s)
+✔ [3143/3591] Built AeneasMeta.Saturate.Tactic:dynlib (53ms)
+✔ [3144/3591] Built AeneasMeta.Saturate (733ms)
+✔ [3146/3591] Built AeneasMeta.Saturate:c.o (61ms)
+✔ [3147/3591] Built AeneasMeta.Saturate:dynlib (40ms)
+✔ [3148/3591] Built AeneasMeta.Async.Test (49s)
+✔ [3150/3591] Built AeneasMeta.Async.Test:c.o (56ms)
+✔ [3151/3591] Built AeneasMeta.Async.Test:dynlib (38ms)
+✔ [3152/3591] Built AeneasMeta.Async (472ms)
+✔ [3154/3591] Built AeneasMeta.Async:c.o (47ms)
+✔ [3155/3591] Built AeneasMeta.Async:dynlib (51ms)
+✔ [3156/3591] Built AeneasMeta (582ms)
+✔ [3158/3591] Built AeneasMeta:c.o (60ms)
+✔ [3160/3591] Built AeneasMeta:shared (67ms)
+✔ [3161/3591] Built Aeneas.Tactic.Simproc.ReduceFin.Init (1.8s)
+✔ [3163/3591] Built Aeneas.Tactic.Simp.SimpBoolProp.Init (1.9s)
+✔ [3165/3591] Built Aeneas.Tactic.Conv.Bvify.Init (1.9s)
+✔ [3167/3591] Built Aeneas.Tactic.Simp.SimpLists.Init (1.8s)
+✔ [3169/3591] Built Aeneas.Tactic.Simproc.ReduceZMod.Init (1.9s)
+✔ [3171/3591] Built Aeneas.Tactic.Conv.Natify.Init (1.9s)
+✔ [3173/3591] Built Aeneas.Tactic.Conv.ZModify.Init (1.0s)
+✔ [3175/3591] Built Aeneas.Tactic.Simp.SimpIfs.Init (1.0s)
+✔ [3177/3591] Built Aeneas.Tactic.RustAttributes (1.9s)
+✔ [3179/3591] Built Aeneas.Data.Tuples (2.0s)
+✔ [3181/3591] Built Aeneas.Tactic.Solver.ScalarTac.Init (2.2s)
+✔ [3183/3591] Built Aeneas.Tactic.Simp.SimpScalar.Init (2.2s)
+✔ [3185/3591] Built Aeneas.Std.Spec (2.2s)
+✔ [3187/3591] Built Aeneas.Tactic.Misc.Let.Let (2.5s)
+✔ [3189/3591] Built Aeneas.Data.Range.DivRange.Basic (2.6s)
+✔ [3191/3591] Built Aeneas.Data.Range.MulRange.Basic (2.6s)
+✔ [3193/3591] Built Aeneas.Data.Range.SRRange.Basic (2.5s)
+✔ [3195/3591] Built Aeneas.Std.Primitives (2.8s)
+✔ [3197/3591] Built Aeneas.Tactic.Simp.SimpBoolProp.SimpBoolProp (1.1s)
+✔ [3199/3591] Built Aeneas.Tactic.Simproc.ReduceFin.ReduceFin (1.3s)
+✔ [3201/3591] Built Aeneas.Data.Byte (1.1s)
+✔ [3203/3591] Built Aeneas.Tactic.Step.DspecInduction (3.4s)
+✔ [3205/3591] Built Aeneas.Tactic.Simproc.ReduceNat (1.2s)
+✔ [3207/3591] Built Aeneas.Data.Range.Lemmas (1.1s)
+✔ [3209/3591] Built Aeneas.Tactic.Misc.Let (1.2s)
+✔ [3211/3591] Built Aeneas.Std.Alloc.String (1.0s)
+✔ [3213/3591] Built Aeneas.Std.Core.Default (1.1s)
+✔ [3215/3591] Built Aeneas.Std.Delab (1.4s)
+✔ [3217/3591] Built Aeneas.Std.Core.Ops (1.4s)
+✔ [3219/3591] Built Aeneas.Tactic.Simproc.ReduceFin (1.3s)
+✔ [3221/3591] Built Aeneas.Data.Range.DivRange.Lemmas (1.9s)
+✔ [3223/3591] Built Aeneas.Tactic.Misc (763ms)
+✔ [3225/3591] Built Aeneas.Tactic.Simproc.ReduceZMod.ReduceZMod (2.9s)
+✔ [3227/3591] Built Aeneas.Do.Elab (2.7s)
+✔ [3229/3591] Built Aeneas.Tactic.Simproc.ReduceZMod (757ms)
+✔ [3231/3591] Built Aeneas.Data.Range.MulRange.Lemmas (1.1s)
+✔ [3233/3591] Built Aeneas.Tactic.Solver.ScalarTac.ScalarTac (2.8s)
+✔ [3235/3591] Built Aeneas.Std.WP (1.9s)
+✔ [3237/3591] Built Aeneas.Data.Fin (859ms)
+✔ [3239/3591] Built Aeneas.Data.Range.Notations (875ms)
+✔ [3241/3591] Built Aeneas.Tactic.Step.PrepareIntroOutputs (1.2s)
+✔ [3243/3591] Built Aeneas.Tactic.Solver.ScalarTac.CondSimpTac (2.3s)
+✔ [3245/3591] Built Aeneas.Data.Range.MulRange.Notations (1.3s)
+✔ [3247/3591] Built Aeneas.Data.Range.SRRange.Notations (1.4s)
+✔ [3249/3591] Built Aeneas.Tactic.Step.SpecInfo (855ms)
+✔ [3251/3591] Built Aeneas.Data.Range.DivRange.Notations (1.6s)
+✔ [3253/3591] Built Aeneas.Tactic.Solver.Arith.Lemmas (2.7s)
+✔ [3255/3591] Built Aeneas.Data.Range.MulRange (948ms)
+✔ [3257/3591] Built Aeneas.Command.Decompose (2.9s)
+✔ [3259/3591] Built Aeneas.Tactic.Simp.SimpIfs.SimpIfs (1.1s)
+✔ [3261/3591] Built Aeneas.Tactic.Simp.SimpScalar.SimpScalar (1.2s)
+✔ [3263/3591] Built Aeneas.Data.Range.DivRange (1.0s)
+✔ [3265/3591] Built Aeneas.Tactic.Simp.SimpLists.SimpLists (1.5s)
+✔ [3267/3591] Built Aeneas.Tactic.Solver.Arith (1.1s)
+✔ [3269/3591] Built Aeneas.Tactic.Simp.SimpIfs (827ms)
+✔ [3271/3591] Built Aeneas.Tactic.Simp.SimpBoolProp (847ms)
+✔ [3273/3591] Built Aeneas.Tactic.Simp.SimpScalar.Lemmas (1.0s)
+✔ [3275/3591] Built Aeneas.Tactic.Step.Init (4.0s)
+✔ [3277/3591] Built Aeneas.Tactic.Simp.SimpScalar.Tests (1.3s)
+✔ [3279/3591] Built Aeneas.Std.Core.Core (1.0s)
+✔ [3281/3591] Built Aeneas.Std.Core.CoreResult (1.0s)
+✔ [3283/3591] Built Aeneas.Std.PrimitivesLemmas (972ms)
+✔ [3285/3591] Built Aeneas.Std.Core.Cmp (1.1s)
+✔ [3287/3591] Built Aeneas.Tactic.Simp.SimpScalar (1.0s)
+✔ [3289/3591] Built Aeneas.Tactic.Step.InferPost (1.4s)
+✔ [3291/3591] Built Aeneas.Std.Alloc.Alloc (717ms)
+✔ [3293/3591] Built Aeneas.Std.Core.Convert (813ms)
+✔ [3295/3591] Built Aeneas.Std.Core.Borrow (759ms)
+✔ [3297/3591] Built Aeneas.Std.Core.Marker (729ms)
+✔ [3299/3591] Built Aeneas.Std.Alloc.Boxed (604ms)
+✔ [3301/3591] Built Aeneas.Std.Scalar.Core (3.6s)
+✔ [3303/3591] Built Aeneas.Std.Scalar.BvComp (2.5s)
+✔ [3305/3591] Built Aeneas.Std.RawPtr (2.5s)
+✔ [3307/3591] Built Aeneas.Std.Scalar.Pow (2.6s)
+✔ [3309/3591] Built Aeneas.Std.Scalar.CloneCopy (2.7s)
+✔ [3311/3591] Built Aeneas.Std.Scalar.DivCeil (2.7s)
+✔ [3313/3591] Built Aeneas.Std.Scalar.Rotate (2.6s)
+✔ [3315/3591] Built Aeneas.Std.Scalar.SaturatingOps (2.8s)
+✔ [3317/3591] Built Aeneas.Std.SliceDef (2.9s)
+✔ [3319/3591] Built Aeneas.Std.Scalar.WrappingOps.Shl (2.9s)
+✔ [3321/3591] Built Aeneas.Tactic.Conv.Zify (2.9s)
+✔ [3323/3591] Built Aeneas.Std.Scalar.LeadingZeros (2.0s)
+✔ [3325/3591] Built Aeneas.Std.Scalar.WrappingOps.Shr (3.0s)
+✔ [3327/3591] Built Aeneas.Std.Scalar.WrappingOps.Add (3.1s)
+✔ [3329/3591] Built Aeneas.Std.Scalar.WrappingOps.Mul (3.1s)
+✔ [3331/3591] Built Aeneas.Std.Scalar.WrappingOps.Sub (3.1s)
+✔ [3333/3591] Built Aeneas.Tactic.Conv.Natify.Natify (3.3s)
+✔ [3335/3591] Built Aeneas.Tactic.Conv.ZModify.ZModify (3.4s)
+✔ [3337/3591] Built Aeneas.Std.Scalar.EqOrd (3.8s)
+✔ [3339/3591] Built Aeneas.Tactic.Solver.ScalarTac.Lemmas (4.1s)
+✔ [3341/3591] Built Aeneas.Std.Core.Ptr (1.6s)
+✔ [3343/3591] Built Aeneas.Std.StringDef (1.3s)
+✔ [3345/3591] Built Aeneas.Std.Scalar.WrappingOps (1.2s)
+✔ [3347/3591] Built Aeneas.Tactic.Conv.Natify (1.3s)
+✔ [3349/3591] Built Aeneas.Tactic.Conv.ZModify (1.3s)
+✔ [3351/3591] Built Aeneas.Std.Core.Alloc (927ms)
+✔ [3353/3591] Built Aeneas.Tactic.Solver.ScalarTac (1.1s)
+✔ [3355/3591] Built Aeneas.Tactic.Solver.Grind.Tests (1.2s)
+✔ [3357/3591] Built Aeneas.Std.Range (1.5s)
+✔ [3359/3591] Built Aeneas.Std.Scalar.Bitwise (2.5s)
+✔ [3361/3591] Built Aeneas.Std.Scalar.Casts (2.5s)
+✔ [3363/3591] Built Aeneas.Tactic.Solver.ScalarDecrTac (2.5s)
+✔ [3365/3591] Built Aeneas.Tactic.Step.GrindState (2.5s)
+✔ [3367/3591] Built Aeneas.Std.Scalar.Misc (2.9s)
+✔ [3369/3591] Built Aeneas.Std.Scalar.Ops.Neg (1.6s)
+✔ [3371/3591] Built Aeneas.Std.Scalar.Ops.Sub (1.0s)
+✔ [3373/3591] Built Aeneas.Std.Scalar.Ops.Mul (2.0s)
+✔ [3375/3591] Built Aeneas.Std.Scalar.Ops.Rem (2.0s)
+✔ [3377/3591] Built Aeneas.Data.List.List (4.0s)
+✔ [3379/3591] Built Aeneas.Std.Scalar.Ops.Add (2.2s)
+✔ [3381/3591] Built Aeneas.Tactic.Solver.ScalarTac.Tests (7.2s)
+✔ [3383/3591] Built Aeneas.Std.Scalar.Ops.Div (3.4s)
+✔ [3385/3591] Built Aeneas.Data.List (1.3s)
+✔ [3387/3591] Built Aeneas.Std.Scalar.CheckedOps.Rem (1.8s)
+✔ [3389/3591] Built Aeneas.Std.Array.Core (1.8s)
+✔ [3391/3591] Built Aeneas.Std.Scalar.CheckedOps.Mul (1.9s)
+✔ [3393/3591] Built Aeneas.Data.Range.SRRange.Lemmas (2.1s)
+✔ [3395/3591] Built Aeneas.Std.Scalar.CheckedOps.Sub (2.7s)
+✔ [3397/3591] Built Aeneas.Std.Scalar.Notations (2.5s)
+✔ [3399/3591] Built Aeneas.Std.Scalar.CheckedOps.Add (2.5s)
+✔ [3401/3591] Built Aeneas.Std.Scalar.CheckedOps.Div (2.1s)
+✔ [3403/3591] Built Aeneas.Data.Array (2.1s)
+✔ [3405/3591] Built Aeneas.Std.Scalar.Ops (2.2s)
+✔ [3407/3591] Built Aeneas.Data.Range.SRRange (1.8s)
+✔ [3409/3591] Built Aeneas.Std.Array.Array (3.2s)
+✔ [3411/3591] Built Aeneas.Std.Scalar.Default (2.4s)
+✔ [3413/3591] Built Aeneas.Std.Scalar.CheckedOps (2.0s)
+✔ [3415/3591] Built Aeneas.Std.Scalar.OverflowingOps.Sub (2.0s)
+✔ [3417/3591] Built Aeneas.Std.Scalar.OverflowingOps.Mul (3.0s)
+✔ [3419/3591] Built Aeneas.Data.BitVec (4.5s)
+✔ [3421/3591] Built Aeneas.Data.Vector (2.5s)
+✔ [3423/3591] Built Aeneas.Data.Discriminant (3.5s)
+✔ [3425/3591] Built Aeneas.Std.Scalar.OverflowingOps.Div (2.7s)
+✔ [3427/3591] Built Aeneas.Data.Range (2.2s)
+✔ [3429/3591] Built Aeneas.Std.Slice (4.8s)
+✔ [3431/3591] Built Aeneas.Std.Core.Fmt (1.7s)
+✔ [3433/3591] Built Aeneas.Std.Array.FromFn (1.8s)
+✔ [3435/3591] Built Aeneas.Data (1.5s)
+✔ [3437/3591] Built Aeneas.Std.Scalar.OverflowingOps.Add (5.5s)
+✔ [3439/3591] Built Aeneas.Std.Core.Hash (1.6s)
+✔ [3441/3591] Built Aeneas.Std.Core.Error (1.6s)
+✔ [3443/3591] Built Aeneas.Tactic.Setup (1.8s)
+✔ [3445/3591] Built Aeneas.Std.Scalar.Display (1.8s)
+✔ [3447/3591] Built Aeneas.Std.Array.ArrayDebug (1.8s)
+✔ [3449/3591] Built Aeneas.Std.Std.Io (1.9s)
+✔ [3451/3591] Built Aeneas.Std.Scalar.Fmt (2.0s)
+✔ [3453/3591] Built Aeneas.Std.Scalar.CoreConvertNum (3.0s)
+✔ [3455/3591] Built Aeneas.Std.Core.Iter (3.4s)
+✔ [3457/3591] Built Aeneas.Std.Scalar.OverflowingOps (1.1s)
+✔ [3459/3591] Built Aeneas.Std.Core.Discriminant (1.1s)
+✔ [3461/3591] Built Aeneas.Std.Std (894ms)
+✔ [3463/3591] Built Aeneas.Std.Array.ArraySlice (2.8s)
+✔ [3465/3591] Built Aeneas.Std.Scalar (792ms)
+✔ [3467/3591] Built Aeneas.Std.Array (823ms)
+✔ [3469/3591] Built Aeneas.Std.Target (1.0s)
+✔ [3471/3591] Built Aeneas.Std.String (1.1s)
+✔ [3473/3591] Built Aeneas.Std.SliceIter (2.4s)
+✔ [3475/3591] Built Aeneas.Std.Alloc.Vec (2.1s)
+✔ [3477/3591] Built Aeneas.Std.Core.CoreOption (1.0s)
+✔ [3479/3591] Built Aeneas.Std.Core.FmtWithSlice (964ms)
+✔ [3481/3591] Built Aeneas.Std.StringIter (1.0s)
+✔ [3483/3591] Built Aeneas.Std.Alloc.Slice (1.1s)
+✔ [3485/3591] Built Aeneas.Std.Alloc.Vec.IntoIter (1.1s)
+✔ [3487/3591] Built Aeneas.Std.Core (1.1s)
+✔ [3489/3591] Built Aeneas.Tactic.Conv.Bvify.Bvify (3.6s)
+✔ [3491/3591] Built Aeneas.Std.RangeIter (1.9s)
+✔ [3493/3591] Built Aeneas.Std.Alloc (820ms)
+✔ [3495/3591] Built Aeneas.Tactic.Conv.Bvify.Lemmas (1.1s)
+✔ [3497/3591] Built Aeneas.Std (769ms)
+✔ [3499/3591] Built Aeneas.Tactic.Conv.Bvify (914ms)
+✔ [3501/3591] Built Aeneas.Tactic.Conv.Bvify.Tests (1.0s)
+✔ [3503/3591] Built Aeneas.Do.Delab (1.4s)
+✔ [3505/3591] Built Aeneas.Tactic.Conv (904ms)
+✔ [3507/3591] Built Aeneas.Command.Decompose.TestsRec (1.2s)
+✔ [3509/3591] Built Aeneas.Do.Tests (1.7s)
+✔ [3511/3591] Built Aeneas.Tactic.Simp.SimpLists.Tests (3.2s)
+✔ [3513/3591] Built Aeneas.Tactic.Simp.SimpLists (779ms)
+✔ [3515/3591] Built Aeneas.Do (976ms)
+✔ [3517/3591] Built Aeneas.Tactic.Simp.SimpListsScalar (837ms)
+✔ [3519/3591] Built Aeneas.Tactic.Solver.BvTac.BvTac (4.0s)
+✔ [3521/3591] Built Aeneas.Command.Decompose.Tests (3.7s)
+✔ [3523/3591] Built Aeneas.Tactic.Simp (899ms)
+✔ [3525/3591] Built Aeneas.Tactic.Simproc.BvSimprocs (1.4s)
+✔ [3527/3591] Built Aeneas.Tactic.Solver.BvTac.Lemmas (1.6s)
+✔ [3529/3591] Built Aeneas.Tactic.Simproc (1.0s)
+✔ [3531/3591] Built Aeneas.Tactic.Solver.BvTac (970ms)
+✔ [3533/3591] Built Aeneas.Tactic.Solver.BvTac.Tests (2.7s)
+✔ [3535/3591] Built Aeneas.Tactic.Solver (836ms)
+✔ [3537/3591] Built Aeneas.Tactic.Step.Step (7.8s)
+✔ [3539/3591] Built Aeneas.Tactic.Step.Tests.DspecInduction (1.2s)
+✔ [3541/3591] Built Aeneas.Tactic.Step.StepArraySpec (1.7s)
+✔ [3543/3591] Built Aeneas.Command.Decompose.TestsBig (16s)
+✔ [3545/3591] Built Aeneas.Command (1.0s)
+✔ [3547/3591] Built Aeneas.Tactic.Step.StepStar (8.5s)
+✔ [3549/3591] Built Aeneas.Tactic.Step.Deprecated (1.7s)
+✔ [3551/3591] Built Aeneas.Tactic.Step (987ms)
+✔ [3553/3591] Built Aeneas.Tactic.Step.Tests.MvcgenSpec (4.5s)
+✔ [3555/3591] Built Aeneas.Tactic.Step.Tests.MaxRecDepthMetavar (4.8s)
+✔ [3557/3591] Built Aeneas.Tactic.Step.Tests.UncurryBind (4.8s)
+✔ [3559/3591] Built Aeneas.Tactic.Step.Tests.HigherOrderResult (4.8s)
+✔ [3561/3591] Built Aeneas.Tactic.Step.Tests.SpecParameters (4.9s)
+✔ [3563/3591] Built Aeneas.Tactic.Step.Tests.TupleDestruct (5.0s)
+✔ [3565/3591] Built Aeneas.Tactic.Step.Tests.DischargeTactic (5.3s)
+✔ [3567/3591] Built Aeneas.Tactic.Step.Tests.ParserErrors (5.2s)
+✔ [3569/3591] Built Aeneas.Tactic.Step.Tests.Coin (5.4s)
+✔ [3571/3591] Built Aeneas.Tactic.Step.Tests.Triple (5.6s)
+✔ [3573/3591] Built Aeneas.Tactic.Step.Tests.HigherOrderOption (5.5s)
+✔ [3575/3591] Built Aeneas.Tactic.Step.Tests.IntroOutputsRecursion (5.6s)
+✔ [3577/3591] Built Aeneas.Tactic.Step.Tests.ArrayFromFn (5.5s)
+✔ [3579/3591] Built Aeneas.Tactic.Step.Tests.HigherOrder (6.9s)
+✔ [3581/3591] Built Aeneas.Tactic.Step.Tests.IntroOutputs (7.5s)
+✔ [3583/3591] Built Aeneas.Tactic.Step.Tests (1.3s)
+✔ [3585/3591] Built Aeneas.Tactic.Tests (142ms)
+✔ [3587/3591] Built Aeneas.Tactic (753ms)
+✔ [3589/3591] Built Aeneas (5.0s)
+Build completed successfully (3591 jobs).
+EXIT 0

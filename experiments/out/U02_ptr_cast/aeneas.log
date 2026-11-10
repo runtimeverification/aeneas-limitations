@@ -1,0 +1,27 @@
+[[92mInfo[39m ] Imported: out/U02_ptr_cast/U02_ptr_cast.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/22 ⠋Applied prepasses:  [##------------------------------------------------]  1/22 ⠋Applied prepasses:  [#############################################-----] 20/22 ⠋Applied prepasses:  [##################################################] 22/22 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/0 ⠋Translated opaque functions:  [------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/2 ⠋[[91mError[39m] Unsupported operation: &raw const (*x)
+Source: 'cases/U02_ptr_cast.rs', lines 1:35-1:36
+[[93mWarn[39m ] Could not translate the body of function 'u02_ptr_cast::pc because of previous error
+Name pattern: 'u02_ptr_cast::pc'
+Definition span: 'cases/U02_ptr_cast.rs', lines 1:0-1:80
+Source: 'cases/U02_ptr_cast.rs', lines 1:35-1:36
+Compiler source: interp/Interp.ml, line 686
+
+[[91mError[39m] Unsupported operation: &raw const (*x)
+Source: 'cases/U02_ptr_cast.rs', lines 2:32-2:33
+[[93mWarn[39m ] Could not translate the body of function 'u02_ptr_cast::addr because of previous error
+Name pattern: 'u02_ptr_cast::addr'
+Definition span: 'cases/U02_ptr_cast.rs', lines 2:0-2:58
+Source: 'cases/U02_ptr_cast.rs', lines 2:32-2:33
+Compiler source: interp/Interp.ml, line 686
+
+Translated transparent functions:  [##################-------------------] 1/2 ⠋Translated transparent functions:  [#####################################] 2/2 ✔️
+[?25h[?25lTranslated trait declarations:  [----------------------------------------] 0/5 ⠋Translated trait declarations:  [----------------------------------------] 0/5 ✔️
+[?25h[?25lTranslated trait impls:  [-----------------------------------------------] 0/8 ⠋Translated trait impls:  [-----------------------------------------------] 0/8 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/0 ⠋Post-processed translated opaque functions:  [---------------------------] 0/0 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/2 ⠋Post-processed translated transparent functions:  [###########-----------] 1/2 ⠋Post-processed translated transparent functions:  [######################] 2/2 ✔️
+[?25h[[92mInfo[39m ] Generated the partial file (because of 2 errors, including 1 unique errors): out/U02_ptr_cast/lean/U02PtrCast.lean
+[[92mInfo[39m ] Total execution time: 0.267289 seconds

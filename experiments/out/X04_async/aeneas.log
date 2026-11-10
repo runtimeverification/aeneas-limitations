@@ -1,0 +1,43 @@
+[[92mInfo[39m ] Imported: out/X04_async/X04_async.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/22 ⠋Applied prepasses:  [##------------------------------------------------]  1/22 ⠋Applied prepasses:  [##################################################] 22/22 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[[91mError[39m] Found type error in the output of charon
+Source: 'cases/X04_async.rs', lines 1:0-1:39
+[[93mWarn[39m ] Could not translate the function signature of 'x04_async::f because of previous error
+Name pattern: 'x04_async::f'
+Definition span: 'cases/X04_async.rs', lines 1:0-1:39
+Source: 'cases/X04_async.rs', lines 1:0-1:39
+Compiler source: Translate.ml, line 390
+
+[[91mError[39m] Found type error in the output of charon
+Source: 'cases/X04_async.rs', lines 2:0-2:38
+[[93mWarn[39m ] Could not translate the function signature of 'x04_async::g because of previous error
+Name pattern: 'x04_async::g'
+Definition span: 'cases/X04_async.rs', lines 2:0-2:38
+Source: 'cases/X04_async.rs', lines 2:0-2:38
+Compiler source: Translate.ml, line 390
+
+[?25lTranslated opaque functions:  [------------------------------------------] 0/2 ⠋[[91mError[39m] Internal error: please file an issue
+Source: 'cases/X04_async.rs', lines 1:0-1:39
+[[91mError[39m] Internal error: please file an issue
+Source: 'cases/X04_async.rs', lines 2:0-2:38
+[[93mWarn[39m ] Could not translate the function 'x04_async::g because of previous error.
+Name pattern: 'x04_async::g'
+Definition span: 'cases/X04_async.rs', lines 2:0-2:38
+Source: 'cases/X04_async.rs', lines 2:0-2:38
+Compiler source: Translate.ml, line 298
+
+[[93mWarn[39m ] Could not translate the function 'x04_async::f because of previous error.
+Name pattern: 'x04_async::f'
+Definition span: 'cases/X04_async.rs', lines 1:0-1:39
+Source: 'cases/X04_async.rs', lines 1:0-1:39
+Compiler source: Translate.ml, line 298
+
+Translated opaque functions:  [##########################################] 2/2 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/0 ⠋Translated transparent functions:  [-------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated trait declarations:  [----------------------------------------] 0/5 ⠋Translated trait declarations:  [----------------------------------------] 0/5 ✔️
+[?25h[?25lTranslated trait impls:  [-----------------------------------------------] 0/8 ⠋Translated trait impls:  [-----------------------------------------------] 0/8 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/0 ⠋Post-processed translated opaque functions:  [---------------------------] 0/0 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/0 ⠋Post-processed translated transparent functions:  [----------------------] 0/0 ✔️
+[?25h[[92mInfo[39m ] Generated the partial file (because of 4 errors, including 2 unique errors): out/X04_async/lean/X04Async.lean
+[[92mInfo[39m ] Total execution time: 0.139200 seconds

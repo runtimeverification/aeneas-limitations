@@ -1,0 +1,11 @@
+[[92mInfo[39m ] Imported: out/R01_recursion/R01_recursion.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/26 ⠋Applied prepasses:  [#-------------------------------------------------]  1/26 ⠋Applied prepasses:  [######################################------------] 20/26 ⠋Applied prepasses:  [##################################################] 26/26 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/0 ⠋Translated opaque functions:  [------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/2 ⠋Translated transparent functions:  [##################-------------------] 1/2 ⠙Translated transparent functions:  [#####################################] 2/2 ⠙Translated transparent functions:  [#####################################] 2/2 ✔️
+[?25h[?25lTranslated trait declarations:  [----------------------------------------] 0/5 ⠋Translated trait declarations:  [----------------------------------------] 0/5 ✔️
+[?25h[?25lTranslated trait impls:  [---------------------------------------------]  0/10 ⠋Translated trait impls:  [---------------------------------------------]  0/10 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/0 ⠋Post-processed translated opaque functions:  [---------------------------] 0/0 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/2 ⠋Post-processed translated transparent functions:  [###########-----------] 1/2 ⠋Post-processed translated transparent functions:  [######################] 2/2 ✔️
+[?25h[[92mInfo[39m ] Generated: out/R01_recursion/lean/R01Recursion.lean
+[[92mInfo[39m ] Total execution time: 1.186393 seconds

@@ -1,0 +1,2 @@
+../out/B04_generic_with_mut_ref/lean/B04GenericWithMutRef.lean:32:31: error: expected a product type, got
+  UScalar UScalarTy.U32

@@ -1,0 +1,11 @@
+[[92mInfo[39m ] Imported: out-loops-to-rec/L12_into_iter/L12_into_iter.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/29 ⠋Applied prepasses:  [#-------------------------------------------------]  1/29 ⠋Applied prepasses:  [#########################################---------] 24/29 ⠋Applied prepasses:  [##################################################] 29/29 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/2 ⠋Translated opaque functions:  [##########################################] 2/2 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/1 ⠋Translated transparent functions:  [#####################################] 1/1 ⠙Translated transparent functions:  [#####################################] 1/1 ✔️
+[?25h[?25lTranslated trait declarations:  [--------------------------------------]  0/26 ⠋Translated trait declarations:  [#-------------------------------------]  1/26 ✔️
+[?25h[?25lTranslated trait impls:  [---------------------------------------------]  0/16 ⠋Translated trait impls:  [---------------------------------------------]  0/16 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/2 ⠋Post-processed translated opaque functions:  [#############--------------] 1/2 ⠋Post-processed translated opaque functions:  [###########################] 2/2 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/1 ⠋Post-processed translated transparent functions:  [######################] 1/1 ⠋Post-processed translated transparent functions:  [######################] 1/1 ✔️
+[?25h[[92mInfo[39m ] Generated: out-loops-to-rec/L12_into_iter/lean/L12IntoIter.lean
+[[92mInfo[39m ] Total execution time: 0.445731 seconds

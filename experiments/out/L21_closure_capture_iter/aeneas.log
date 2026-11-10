@@ -1,0 +1,24 @@
+[[92mInfo[39m ] Imported: out/L21_closure_capture_iter/L21_closure_capture_iter.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/38 ⠋Applied prepasses:  [#-------------------------------------------------]  1/38 ⠋Applied prepasses:  [###########################-----------------------] 21/38 ⠋Applied prepasses:  [##################################################] 38/38 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/9 ⠋Translated opaque functions:  [##########################################] 9/9 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/6 ⠋Translated transparent functions:  [######-------------------------------] 1/6 ⠙Translated transparent functions:  [#####################################] 6/6 ✔️
+[?25h[?25lTranslated trait declarations:  [--------------------------------------]  0/27 ⠋Translated trait declarations:  [#######-------------------------------]  5/27 ✔️
+[?25h[?25lTranslated trait impls:  [---------------------------------------------]  0/23 ⠋Translated trait impls:  [#############--------------------------------]  7/23 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/9 ⠋Post-processed translated opaque functions:  [###------------------------] 1/9 ⠙Post-processed translated opaque functions:  [###########################] 9/9 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/6 ⠋Post-processed translated transparent functions:  [###-------------------] 1/6 ⠋Post-processed translated transparent functions:  [######################] 6/6 ✔️
+[?25h[[93mWarn[39m ] When retrieving the builtin information for trait decl 'core::iter::traits::iterator::Iterator', could not find the information for item 'map'. The model defined in the Lean library seems to be missing the corresponding field.
+Source: '/rustc/library/core/src/iter/traits/iterator.rs', lines 42:0-42:24
+Compiler source: extract/Extract.ml, line 2867
+
+[[93mWarn[39m ] When retrieving the builtin information for trait decl 'core::iter::traits::iterator::Iterator', could not find the information for item 'collect'. The model defined in the Lean library seems to be missing the corresponding field.
+Source: '/rustc/library/core/src/iter/traits/iterator.rs', lines 42:0-42:24
+Compiler source: extract/Extract.ml, line 2867
+
+[[93mWarn[39m ] When retrieving the builtin information for trait decl 'core::iter::traits::iterator::Iterator', could not find the information for item 'any'. The model defined in the Lean library seems to be missing the corresponding field.
+Source: '/rustc/library/core/src/iter/traits/iterator.rs', lines 42:0-42:24
+Compiler source: extract/Extract.ml, line 2867
+
+[[92mInfo[39m ] Generated: out/L21_closure_capture_iter/lean/L21ClosureCaptureIter.lean
+[[93mWarn[39m ] The crate contains extracted external, unknown definitions: we advise using the option -split-files to allow manually providing these definitions in separate files.
+[[92mInfo[39m ] Total execution time: 0.654321 seconds

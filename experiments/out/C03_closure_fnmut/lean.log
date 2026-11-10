@@ -1,0 +1,18 @@
+../out/C03_closure_fnmut/lean/C03ClosureFnmut.lean:63:15: error: Type mismatch
+  CoreOpsFunctionFnOnceTupleTuple.call_once
+has type
+  closure → Unit → Result closure
+but is expected to have type
+  closure → Unit → Result Unit
+../out/C03_closure_fnmut/lean/C03ClosureFnmut.lean:72:14: error: Type mismatch
+  CoreOpsFunctionFnMutTupleTuple.call_mut
+has type
+  closure → Unit → Result (closure × (closure → closure))
+but is expected to have type
+  closure → Unit → Result (Unit × closure)
+../out/C03_closure_fnmut/lean/C03ClosureFnmut.lean:79:2: error: Type mismatch
+  call_twice count.closure.Insts.CoreOpsFunctionFnMutTupleTuple 0#u32
+has type
+  Result Unit
+but is expected to have type
+  Result U32

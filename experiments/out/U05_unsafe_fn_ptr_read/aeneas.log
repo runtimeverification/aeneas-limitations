@@ -1,0 +1,20 @@
+[[92mInfo[39m ] Imported: out/U05_unsafe_fn_ptr_read/U05_unsafe_fn_ptr_read.llbc
+[?25lApplied prepasses:  [--------------------------------------------------]  0/23 ⠋Applied prepasses:  [##------------------------------------------------]  1/23 ⠋Applied prepasses:  [###########################################-------] 20/23 ⠋Applied prepasses:  [##################################################] 23/23 ✔️
+[?25h[?25lTranslated globals:  [---------------------------------------------------] 0/0 ⠋Translated globals:  [---------------------------------------------------] 0/0 ✔️
+[?25h[?25lTranslated opaque functions:  [------------------------------------------] 0/1 ⠋Translated opaque functions:  [##########################################] 1/1 ✔️
+[?25h[?25lTranslated transparent functions:  [-------------------------------------] 0/2 ⠋[[91mError[39m] Unsupported operation: &raw const (*x)
+Source: 'cases/U05_unsafe_fn_ptr_read.rs', lines 2:47-2:48
+[[93mWarn[39m ] Could not translate the body of function 'u05_unsafe_fn_ptr_read::safe_call because of previous error
+Name pattern: 'u05_unsafe_fn_ptr_read::safe_call'
+Definition span: 'cases/U05_unsafe_fn_ptr_read.rs', lines 2:0-2:53
+Source: 'cases/U05_unsafe_fn_ptr_read.rs', lines 2:47-2:48
+Compiler source: interp/Interp.ml, line 686
+
+Translated transparent functions:  [##################-------------------] 1/2 ⠋Translated transparent functions:  [#####################################] 2/2 ✔️
+[?25h[?25lTranslated trait declarations:  [----------------------------------------] 0/5 ⠋Translated trait declarations:  [----------------------------------------] 0/5 ✔️
+[?25h[?25lTranslated trait impls:  [-----------------------------------------------] 0/8 ⠋Translated trait impls:  [-----------------------------------------------] 0/8 ✔️
+[?25h[?25lPost-processed translated opaque functions:  [---------------------------] 0/1 ⠋Post-processed translated opaque functions:  [###########################] 1/1 ⠋Post-processed translated opaque functions:  [###########################] 1/1 ✔️
+[?25h[?25lPost-processed translated transparent functions:  [----------------------] 0/2 ⠋Post-processed translated transparent functions:  [###########-----------] 1/2 ⠋Post-processed translated transparent functions:  [######################] 2/2 ✔️
+[?25h[[92mInfo[39m ] Generated the partial file (because of 1 errors, including 1 unique errors): out/U05_unsafe_fn_ptr_read/lean/U05UnsafeFnPtrRead.lean
+[[93mWarn[39m ] The crate contains extracted external, unknown definitions: we advise using the option -split-files to allow manually providing these definitions in separate files.
+[[92mInfo[39m ] Total execution time: 0.263892 seconds

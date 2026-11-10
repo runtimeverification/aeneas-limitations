@@ -1,0 +1,17 @@
+# Upstream clones (see VERSIONS.md)
+/aeneas/
+/charon/
+/charon-pinned/
+
+# Local toolchains and build artifacts
+/tools/
+target/
+.lake/
+__pycache__/
+*.pyc
+
+# Machine-specific environment (copy from env.sh.example)
+/env.sh
+
+# Raw GitHub API dumps (refetch with scripts/fetchall.sh)
+/notes/gh/

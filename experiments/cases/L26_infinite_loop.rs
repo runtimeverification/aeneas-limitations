@@ -1,0 +1,3 @@
+pub fn spin() -> ! {
+    loop {}
+}
